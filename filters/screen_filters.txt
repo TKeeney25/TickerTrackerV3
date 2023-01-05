@@ -1,0 +1,16 @@
+FILTER
+	symbol {
+		regex:
+	},
+	market {
+		eq: "us_market"
+	},
+	tradeable {
+		eq: True
+	},
+	firstTradeDateMilliseconds {
+		gr: 10yrs (Milliseconds from epoch Jan 1st 1970)
+	}
+OBTAIN
+	symbol,
+	quoteType,

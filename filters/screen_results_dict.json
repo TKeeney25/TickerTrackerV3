@@ -1,0 +1,149 @@
+{
+	"symbol": "VSTSX",
+	"twoHundredDayAverageChangePercent": {
+	  "raw": -0.011456137,
+	  "fmt": "-1.15%"
+	},
+	"fiftyTwoWeekLowChangePercent": {
+	  "raw": 0.14704944,
+	  "fmt": "14.70%"
+	},
+	"language": "en-US",
+	"twoHundredDayAverageChange": {
+	  "raw": -2.5094604,
+	  "fmt": "-2.51"
+	},
+	"twoHundredDayAverage": {
+	  "raw": 219.04945,
+	  "fmt": "219.05"
+	},
+	"bookValue": {
+	  "raw": 139.506,
+	  "fmt": "139.51"
+	},
+	"fiftyTwoWeekHighChange": {
+	  "raw": -16.190002,
+	  "fmt": "-16.19"
+	},
+	"marketCap": {
+	  "raw": 1833714843648,
+	  "fmt": "1.834T",
+	  "longFmt": "1,833,714,843,648"
+	},
+	"fiftyTwoWeekRange": {
+	  "raw": "188.78 - 232.73",
+	  "fmt": "188.78 - 232.73"
+	},
+	"fiftyDayAverageChange": {
+	  "raw": -6.3792114,
+	  "fmt": "-6.38"
+	},
+	"firstTradeDateMilliseconds": 1459258200000,
+	"averageDailyVolume3Month": {
+	  "raw": 0,
+	  "fmt": "0",
+	  "longFmt": "0"
+	},
+	"exchangeDataDelayedBy": 0,
+	"trailingAnnualDividendRate": {
+	  "raw": 2.802,
+	  "fmt": "2.80"
+	},
+	"fiftyTwoWeekLow": {
+	  "raw": 188.78,
+	  "fmt": "188.78"
+	},
+	"market": "us_market",
+	"quoteSourceName": "Delayed Quote",
+	"messageBoardId": "finmb_6184536",
+	"priceHint": 2,
+	"sourceInterval": 15,
+	"exchange": "NAS",
+	"ytdReturn": {
+	  "raw": -6.4056,
+	  "fmt": "-6.41%"
+	},
+	"region": "US",
+	"shortName": "Vanguard Total Stock Market Ind",
+	"fiftyDayAverageChangePercent": {
+	  "raw": -0.028616697,
+	  "fmt": "-2.86%"
+	},
+	"fullExchangeName": "Nasdaq",
+	"financialCurrency": "USD",
+	"gmtOffSetMilliseconds": -18000000,
+	"regularMarketTime": {
+	  "raw": 1645016758,
+	  "fmt": "8:05AM EST"
+	},
+	"regularMarketChangePercent": {
+	  "raw": 1.7814336,
+	  "fmt": "1.78%"
+	},
+	"trailingAnnualDividendYield": {
+	  "raw": 0.013170388,
+	  "fmt": "0.01%"
+	},
+	"quoteType": "MUTUALFUND",
+	"averageDailyVolume10Day": {
+	  "raw": 0,
+	  "fmt": "0",
+	  "longFmt": "0"
+	},
+	"fiftyTwoWeekLowChange": {
+	  "raw": 27.759995,
+	  "fmt": "27.76"
+	},
+	"fiftyTwoWeekHighChangePercent": {
+	  "raw": -0.0695656,
+	  "fmt": "-6.96%"
+	},
+	"trailingPE": {
+	  "raw": 5.0797596,
+	  "fmt": "5.08"
+	},
+	"tradeable": false,
+	"currency": "USD",
+	"sharesOutstanding": {
+	  "raw": 8468250112,
+	  "fmt": "8.468B",
+	  "longFmt": "8,468,250,112"
+	},
+	"fiftyTwoWeekHigh": {
+	  "raw": 232.73,
+	  "fmt": "232.73"
+	},
+	"regularMarketPreviousClose": {
+	  "raw": 212.75,
+	  "fmt": "212.75"
+	},
+	"trailingThreeMonthReturns": {
+	  "raw": -6.13471,
+	  "fmt": "-6.13%"
+	},
+	"exchangeTimezoneName": "America/New_York",
+	"regularMarketChange": {
+	  "raw": 3.79,
+	  "fmt": "3.79"
+	},
+	"fiftyDayAverage": {
+	  "raw": 222.9192,
+	  "fmt": "222.92"
+	},
+	"exchangeTimezoneShortName": "EST",
+	"regularMarketPrice": {
+	  "raw": 216.54,
+	  "fmt": "216.54"
+	},
+	"marketState": "REGULAR",
+	"epsTrailingTwelveMonths": {
+	  "raw": 42.628,
+	  "fmt": "42.63"
+	},
+	"priceToBook": {
+	  "raw": 1.5521913,
+	  "fmt": "1.55"
+	},
+	"triggerable": false,
+	"longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
+ },
