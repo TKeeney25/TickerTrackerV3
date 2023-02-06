@@ -1,3 +1,4476 @@
+# region SCREEN_FUND
+GOOD_SCREEN_FUND = '''
+{
+  "finance": {
+    "result": [
+      {
+        "start": 0,
+        "count": 1,
+        "total": 50,
+        "quotes": [
+          {
+            "symbol": "FDN",
+            "twoHundredDayAverageChangePercent": {
+              "raw": -0.011456137,
+              "fmt": "-1.15%"
+            },
+            "fiftyTwoWeekLowChangePercent": {
+              "raw": 0.14704944,
+              "fmt": "14.70%"
+            },
+            "language": "en-US",
+            "twoHundredDayAverageChange": {
+              "raw": -2.5094604,
+              "fmt": "-2.51"
+            },
+            "twoHundredDayAverage": {
+              "raw": 219.04945,
+              "fmt": "219.05"
+            },
+            "bookValue": {
+              "raw": 139.506,
+              "fmt": "139.51"
+            },
+            "fiftyTwoWeekHighChange": {
+              "raw": -16.190002,
+              "fmt": "-16.19"
+            },
+            "marketCap": {
+              "raw": 1833714843648,
+              "fmt": "1.834T",
+              "longFmt": "1,833,714,843,648"
+            },
+            "fiftyTwoWeekRange": {
+              "raw": "188.78 - 232.73",
+              "fmt": "188.78 - 232.73"
+            },
+            "fiftyDayAverageChange": {
+              "raw": -6.3792114,
+              "fmt": "-6.38"
+            },
+            "firstTradeDateMilliseconds": 443840400000,
+            "averageDailyVolume3Month": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "exchangeDataDelayedBy": 0,
+            "trailingAnnualDividendRate": {
+              "raw": 2.802,
+              "fmt": "2.80"
+            },
+            "fiftyTwoWeekLow": {
+              "raw": 188.78,
+              "fmt": "188.78"
+            },
+            "market": "us_market",
+            "quoteSourceName": "Delayed Quote",
+            "messageBoardId": "finmb_6184536",
+            "priceHint": 2,
+            "sourceInterval": 15,
+            "exchange": "NAS",
+            "ytdReturn": {
+              "raw": -6.4056,
+              "fmt": "-6.41%"
+            },
+            "region": "US",
+            "shortName": "Vanguard Total Stock Market Ind",
+            "fiftyDayAverageChangePercent": {
+              "raw": -0.028616697,
+              "fmt": "-2.86%"
+            },
+            "fullExchangeName": "Nasdaq",
+            "financialCurrency": "USD",
+            "gmtOffSetMilliseconds": -18000000,
+            "regularMarketTime": {
+              "raw": 1645016758,
+              "fmt": "8:05AM EST"
+            },
+            "regularMarketChangePercent": {
+              "raw": 1.7814336,
+              "fmt": "1.78%"
+            },
+            "trailingAnnualDividendYield": {
+              "raw": 0.013170388,
+              "fmt": "0.01%"
+            },
+            "quoteType": "MUTUALFUND",
+            "averageDailyVolume10Day": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "fiftyTwoWeekLowChange": {
+              "raw": 27.759995,
+              "fmt": "27.76"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+              "raw": -0.0695656,
+              "fmt": "-6.96%"
+            },
+            "trailingPE": {
+              "raw": 5.0797596,
+              "fmt": "5.08"
+            },
+            "tradeable": true,
+            "currency": "USD",
+            "sharesOutstanding": {
+              "raw": 8468250112,
+              "fmt": "8.468B",
+              "longFmt": "8,468,250,112"
+            },
+            "fiftyTwoWeekHigh": {
+              "raw": 232.73,
+              "fmt": "232.73"
+            },
+            "regularMarketPreviousClose": {
+              "raw": 212.75,
+              "fmt": "212.75"
+            },
+            "trailingThreeMonthReturns": {
+              "raw": -6.13471,
+              "fmt": "-6.13%"
+            },
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+              "raw": 3.79,
+              "fmt": "3.79"
+            },
+            "fiftyDayAverage": {
+              "raw": 222.9192,
+              "fmt": "222.92"
+            },
+            "exchangeTimezoneShortName": "EST",
+            "regularMarketPrice": {
+              "raw": 216.54,
+              "fmt": "216.54"
+            },
+            "marketState": "REGULAR",
+            "epsTrailingTwelveMonths": {
+              "raw": 42.628,
+              "fmt": "42.63"
+            },
+            "priceToBook": {
+              "raw": 1.5521913,
+              "fmt": "1.55"
+            },
+            "triggerable": false,
+            "longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
+          }
+        ],
+        "useRecords": false
+      }
+    ],
+    "error": null
+  }
+}
+'''
+BAD_TRADE_DATE_SCREEN_FUND = '''
+{
+  "finance": {
+    "result": [
+      {
+        "start": 0,
+        "count": 1,
+        "total": 50,
+        "quotes": [
+          {
+            "symbol": "FDN",
+            "twoHundredDayAverageChangePercent": {
+              "raw": -0.011456137,
+              "fmt": "-1.15%"
+            },
+            "fiftyTwoWeekLowChangePercent": {
+              "raw": 0.14704944,
+              "fmt": "14.70%"
+            },
+            "language": "en-US",
+            "twoHundredDayAverageChange": {
+              "raw": -2.5094604,
+              "fmt": "-2.51"
+            },
+            "twoHundredDayAverage": {
+              "raw": 219.04945,
+              "fmt": "219.05"
+            },
+            "bookValue": {
+              "raw": 139.506,
+              "fmt": "139.51"
+            },
+            "fiftyTwoWeekHighChange": {
+              "raw": -16.190002,
+              "fmt": "-16.19"
+            },
+            "marketCap": {
+              "raw": 1833714843648,
+              "fmt": "1.834T",
+              "longFmt": "1,833,714,843,648"
+            },
+            "fiftyTwoWeekRange": {
+              "raw": "188.78 - 232.73",
+              "fmt": "188.78 - 232.73"
+            },
+            "fiftyDayAverageChange": {
+              "raw": -6.3792114,
+              "fmt": "-6.38"
+            },
+            "firstTradeDateMilliseconds": 10000000000000,
+            "averageDailyVolume3Month": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "exchangeDataDelayedBy": 0,
+            "trailingAnnualDividendRate": {
+              "raw": 2.802,
+              "fmt": "2.80"
+            },
+            "fiftyTwoWeekLow": {
+              "raw": 188.78,
+              "fmt": "188.78"
+            },
+            "market": "us_market",
+            "quoteSourceName": "Delayed Quote",
+            "messageBoardId": "finmb_6184536",
+            "priceHint": 2,
+            "sourceInterval": 15,
+            "exchange": "NAS",
+            "ytdReturn": {
+              "raw": -6.4056,
+              "fmt": "-6.41%"
+            },
+            "region": "US",
+            "shortName": "Vanguard Total Stock Market Ind",
+            "fiftyDayAverageChangePercent": {
+              "raw": -0.028616697,
+              "fmt": "-2.86%"
+            },
+            "fullExchangeName": "Nasdaq",
+            "financialCurrency": "USD",
+            "gmtOffSetMilliseconds": -18000000,
+            "regularMarketTime": {
+              "raw": 1645016758,
+              "fmt": "8:05AM EST"
+            },
+            "regularMarketChangePercent": {
+              "raw": 1.7814336,
+              "fmt": "1.78%"
+            },
+            "trailingAnnualDividendYield": {
+              "raw": 0.013170388,
+              "fmt": "0.01%"
+            },
+            "quoteType": "MUTUALFUND",
+            "averageDailyVolume10Day": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "fiftyTwoWeekLowChange": {
+              "raw": 27.759995,
+              "fmt": "27.76"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+              "raw": -0.0695656,
+              "fmt": "-6.96%"
+            },
+            "trailingPE": {
+              "raw": 5.0797596,
+              "fmt": "5.08"
+            },
+            "tradeable": true,
+            "currency": "USD",
+            "sharesOutstanding": {
+              "raw": 8468250112,
+              "fmt": "8.468B",
+              "longFmt": "8,468,250,112"
+            },
+            "fiftyTwoWeekHigh": {
+              "raw": 232.73,
+              "fmt": "232.73"
+            },
+            "regularMarketPreviousClose": {
+              "raw": 212.75,
+              "fmt": "212.75"
+            },
+            "trailingThreeMonthReturns": {
+              "raw": -6.13471,
+              "fmt": "-6.13%"
+            },
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+              "raw": 3.79,
+              "fmt": "3.79"
+            },
+            "fiftyDayAverage": {
+              "raw": 222.9192,
+              "fmt": "222.92"
+            },
+            "exchangeTimezoneShortName": "EST",
+            "regularMarketPrice": {
+              "raw": 216.54,
+              "fmt": "216.54"
+            },
+            "marketState": "REGULAR",
+            "epsTrailingTwelveMonths": {
+              "raw": 42.628,
+              "fmt": "42.63"
+            },
+            "priceToBook": {
+              "raw": 1.5521913,
+              "fmt": "1.55"
+            },
+            "triggerable": false,
+            "longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
+          }
+        ],
+        "useRecords": false
+      }
+    ],
+    "error": null
+  }
+}
+'''
+BAD_MARKET_SCREEN_FUND = '''
+{
+  "finance": {
+    "result": [
+      {
+        "start": 0,
+        "count": 1,
+        "total": 50,
+        "quotes": [
+          {
+            "symbol": "FDN",
+            "twoHundredDayAverageChangePercent": {
+              "raw": -0.011456137,
+              "fmt": "-1.15%"
+            },
+            "fiftyTwoWeekLowChangePercent": {
+              "raw": 0.14704944,
+              "fmt": "14.70%"
+            },
+            "language": "en-US",
+            "twoHundredDayAverageChange": {
+              "raw": -2.5094604,
+              "fmt": "-2.51"
+            },
+            "twoHundredDayAverage": {
+              "raw": 219.04945,
+              "fmt": "219.05"
+            },
+            "bookValue": {
+              "raw": 139.506,
+              "fmt": "139.51"
+            },
+            "fiftyTwoWeekHighChange": {
+              "raw": -16.190002,
+              "fmt": "-16.19"
+            },
+            "marketCap": {
+              "raw": 1833714843648,
+              "fmt": "1.834T",
+              "longFmt": "1,833,714,843,648"
+            },
+            "fiftyTwoWeekRange": {
+              "raw": "188.78 - 232.73",
+              "fmt": "188.78 - 232.73"
+            },
+            "fiftyDayAverageChange": {
+              "raw": -6.3792114,
+              "fmt": "-6.38"
+            },
+            "firstTradeDateMilliseconds": 443840400000,
+            "averageDailyVolume3Month": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "exchangeDataDelayedBy": 0,
+            "trailingAnnualDividendRate": {
+              "raw": 2.802,
+              "fmt": "2.80"
+            },
+            "fiftyTwoWeekLow": {
+              "raw": 188.78,
+              "fmt": "188.78"
+            },
+            "market": "ca_market",
+            "quoteSourceName": "Delayed Quote",
+            "messageBoardId": "finmb_6184536",
+            "priceHint": 2,
+            "sourceInterval": 15,
+            "exchange": "NAS",
+            "ytdReturn": {
+              "raw": -6.4056,
+              "fmt": "-6.41%"
+            },
+            "region": "US",
+            "shortName": "Vanguard Total Stock Market Ind",
+            "fiftyDayAverageChangePercent": {
+              "raw": -0.028616697,
+              "fmt": "-2.86%"
+            },
+            "fullExchangeName": "Nasdaq",
+            "financialCurrency": "USD",
+            "gmtOffSetMilliseconds": -18000000,
+            "regularMarketTime": {
+              "raw": 1645016758,
+              "fmt": "8:05AM EST"
+            },
+            "regularMarketChangePercent": {
+              "raw": 1.7814336,
+              "fmt": "1.78%"
+            },
+            "trailingAnnualDividendYield": {
+              "raw": 0.013170388,
+              "fmt": "0.01%"
+            },
+            "quoteType": "MUTUALFUND",
+            "averageDailyVolume10Day": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "fiftyTwoWeekLowChange": {
+              "raw": 27.759995,
+              "fmt": "27.76"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+              "raw": -0.0695656,
+              "fmt": "-6.96%"
+            },
+            "trailingPE": {
+              "raw": 5.0797596,
+              "fmt": "5.08"
+            },
+            "tradeable": true,
+            "currency": "USD",
+            "sharesOutstanding": {
+              "raw": 8468250112,
+              "fmt": "8.468B",
+              "longFmt": "8,468,250,112"
+            },
+            "fiftyTwoWeekHigh": {
+              "raw": 232.73,
+              "fmt": "232.73"
+            },
+            "regularMarketPreviousClose": {
+              "raw": 212.75,
+              "fmt": "212.75"
+            },
+            "trailingThreeMonthReturns": {
+              "raw": -6.13471,
+              "fmt": "-6.13%"
+            },
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+              "raw": 3.79,
+              "fmt": "3.79"
+            },
+            "fiftyDayAverage": {
+              "raw": 222.9192,
+              "fmt": "222.92"
+            },
+            "exchangeTimezoneShortName": "EST",
+            "regularMarketPrice": {
+              "raw": 216.54,
+              "fmt": "216.54"
+            },
+            "marketState": "REGULAR",
+            "epsTrailingTwelveMonths": {
+              "raw": 42.628,
+              "fmt": "42.63"
+            },
+            "priceToBook": {
+              "raw": 1.5521913,
+              "fmt": "1.55"
+            },
+            "triggerable": false,
+            "longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
+          }
+        ],
+        "useRecords": false
+      }
+    ],
+    "error": null
+  }
+}
+'''
+BAD_TRADEABLE_FUND = '''
+{
+  "finance": {
+    "result": [
+      {
+        "start": 0,
+        "count": 1,
+        "total": 50,
+        "quotes": [
+          {
+            "symbol": "FDN",
+            "twoHundredDayAverageChangePercent": {
+              "raw": -0.011456137,
+              "fmt": "-1.15%"
+            },
+            "fiftyTwoWeekLowChangePercent": {
+              "raw": 0.14704944,
+              "fmt": "14.70%"
+            },
+            "language": "en-US",
+            "twoHundredDayAverageChange": {
+              "raw": -2.5094604,
+              "fmt": "-2.51"
+            },
+            "twoHundredDayAverage": {
+              "raw": 219.04945,
+              "fmt": "219.05"
+            },
+            "bookValue": {
+              "raw": 139.506,
+              "fmt": "139.51"
+            },
+            "fiftyTwoWeekHighChange": {
+              "raw": -16.190002,
+              "fmt": "-16.19"
+            },
+            "marketCap": {
+              "raw": 1833714843648,
+              "fmt": "1.834T",
+              "longFmt": "1,833,714,843,648"
+            },
+            "fiftyTwoWeekRange": {
+              "raw": "188.78 - 232.73",
+              "fmt": "188.78 - 232.73"
+            },
+            "fiftyDayAverageChange": {
+              "raw": -6.3792114,
+              "fmt": "-6.38"
+            },
+            "firstTradeDateMilliseconds": 443840400000,
+            "averageDailyVolume3Month": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "exchangeDataDelayedBy": 0,
+            "trailingAnnualDividendRate": {
+              "raw": 2.802,
+              "fmt": "2.80"
+            },
+            "fiftyTwoWeekLow": {
+              "raw": 188.78,
+              "fmt": "188.78"
+            },
+            "market": "us_market",
+            "quoteSourceName": "Delayed Quote",
+            "messageBoardId": "finmb_6184536",
+            "priceHint": 2,
+            "sourceInterval": 15,
+            "exchange": "NAS",
+            "ytdReturn": {
+              "raw": -6.4056,
+              "fmt": "-6.41%"
+            },
+            "region": "US",
+            "shortName": "Vanguard Total Stock Market Ind",
+            "fiftyDayAverageChangePercent": {
+              "raw": -0.028616697,
+              "fmt": "-2.86%"
+            },
+            "fullExchangeName": "Nasdaq",
+            "financialCurrency": "USD",
+            "gmtOffSetMilliseconds": -18000000,
+            "regularMarketTime": {
+              "raw": 1645016758,
+              "fmt": "8:05AM EST"
+            },
+            "regularMarketChangePercent": {
+              "raw": 1.7814336,
+              "fmt": "1.78%"
+            },
+            "trailingAnnualDividendYield": {
+              "raw": 0.013170388,
+              "fmt": "0.01%"
+            },
+            "quoteType": "MUTUALFUND",
+            "averageDailyVolume10Day": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "fiftyTwoWeekLowChange": {
+              "raw": 27.759995,
+              "fmt": "27.76"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+              "raw": -0.0695656,
+              "fmt": "-6.96%"
+            },
+            "trailingPE": {
+              "raw": 5.0797596,
+              "fmt": "5.08"
+            },
+            "tradeable": false,
+            "currency": "USD",
+            "sharesOutstanding": {
+              "raw": 8468250112,
+              "fmt": "8.468B",
+              "longFmt": "8,468,250,112"
+            },
+            "fiftyTwoWeekHigh": {
+              "raw": 232.73,
+              "fmt": "232.73"
+            },
+            "regularMarketPreviousClose": {
+              "raw": 212.75,
+              "fmt": "212.75"
+            },
+            "trailingThreeMonthReturns": {
+              "raw": -6.13471,
+              "fmt": "-6.13%"
+            },
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+              "raw": 3.79,
+              "fmt": "3.79"
+            },
+            "fiftyDayAverage": {
+              "raw": 222.9192,
+              "fmt": "222.92"
+            },
+            "exchangeTimezoneShortName": "EST",
+            "regularMarketPrice": {
+              "raw": 216.54,
+              "fmt": "216.54"
+            },
+            "marketState": "REGULAR",
+            "epsTrailingTwelveMonths": {
+              "raw": 42.628,
+              "fmt": "42.63"
+            },
+            "priceToBook": {
+              "raw": 1.5521913,
+              "fmt": "1.55"
+            },
+            "triggerable": false,
+            "longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
+          }
+        ],
+        "useRecords": false
+      }
+    ],
+    "error": null
+  }
+}
+'''
+# endregion
+
+# region YH_FINANCE_DATA
+GOOD_YH_FINANCE_DATA = '''{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {},
+    "beta3Year": {
+      "raw": 1.09,
+      "fmt": "1.09"
+    },
+    "profitMargins": {},
+    "enterpriseToEbitda": {},
+    "52WeekChange": {},
+    "morningStarRiskRating": {},
+    "forwardEps": {},
+    "revenueQuarterlyGrowth": {},
+    "fundInceptionDate": {
+      "raw": 1150675200,
+      "fmt": "2006-06-19"
+    },
+    "annualReportExpenseRatio": {},
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "bookValue": {},
+    "fundFamily": "First Trust",
+    "lastFiscalYearEnd": {},
+    "netIncomeToCommon": {},
+    "trailingEps": {},
+    "lastDividendValue": {},
+    "SandP52WeekChange": {},
+    "priceToBook": {},
+    "nextFiscalYearEnd": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "mostRecentQuarter": {},
+    "enterpriseValue": {},
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {
+      "raw": -0.0418,
+      "fmt": "-4.18%"
+    },
+    "lastSplitDate": {},
+    "lastSplitFactor": null,
+    "legalType": "Exchange Traded Fund",
+    "lastDividendDate": {},
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "pegRatio": {},
+    "ytdReturn": {
+      "raw": -0.45529997,
+      "fmt": "-45.53%"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "lastCapGain": {},
+    "category": "Technology",
+    "fiveYearAverageReturn": {
+      "raw": 0.0231,
+      "fmt": "2.31%"
+    }
+  },
+  "fundProfile": {
+    "initInvestment": {},
+    "family": "First Trust",
+    "categoryName": "Technology",
+    "initAipInvestment": {},
+    "subseqIraInvestment": {},
+    "brokerages": [],
+    "managementInfo": {
+      "managerName": null,
+      "managerBio": null,
+      "startdate": {}
+    },
+    "subseqInvestment": {},
+    "legalType": "Exchange Traded Fund",
+    "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+    "feesExpensesInvestment": {
+      "annualHoldingsTurnover": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "frontEndSalesLoad": {},
+      "annualReportExpenseRatio": {
+        "raw": 0.0050999997,
+        "fmt": "0.51%"
+      },
+      "netExpRatio": {},
+      "projectionValues": {},
+      "grossExpRatio": {},
+      "deferredSalesLoad": {},
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "twelveBOne": {}
+    },
+    "maxAge": 1,
+    "feesExpensesInvestmentCat": {
+      "annualReportExpenseRatio": {
+        "raw": 0.0053,
+        "fmt": "0.53%"
+      },
+      "frontEndSalesLoad": {},
+      "deferredSalesLoad": {},
+      "twelveBOne": {},
+      "annualHoldingsTurnover": {
+        "raw": 32.42,
+        "fmt": "3,242.00%"
+      },
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "projectionValuesCat": {}
+    },
+    "initIraInvestment": {},
+    "subseqAipInvestment": {}
+  },
+  "financialsTemplate": {},
+  "topHoldings": {
+    "preferredPosition": {},
+    "bondPosition": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "convertiblePosition": {},
+    "sectorWeightings": [
+      {
+        "realestate": {
+          "raw": 0.0037,
+          "fmt": "0.37%"
+        }
+      },
+      {
+        "consumer_cyclical": {
+          "raw": 0.17819999,
+          "fmt": "17.82%"
+        }
+      },
+      {
+        "basic_materials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "consumer_defensive": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "technology": {
+          "raw": 0.4548,
+          "fmt": "45.48%"
+        }
+      },
+      {
+        "communication_services": {
+          "raw": 0.2861,
+          "fmt": "28.61%"
+        }
+      },
+      {
+        "financial_services": {
+          "raw": 0.0376,
+          "fmt": "3.76%"
+        }
+      },
+      {
+        "utilities": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "industrials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "energy": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "healthcare": {
+          "raw": 0.039,
+          "fmt": "3.90%"
+        }
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "AMZN",
+        "holdingName": "Amazon.com Inc",
+        "holdingPercent": {
+          "raw": 0.0936,
+          "fmt": "9.36%"
+        }
+      },
+      {
+        "symbol": "FB",
+        "holdingName": "Facebook Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0798,
+          "fmt": "7.98%"
+        }
+      },
+      {
+        "symbol": "GOOGL",
+        "holdingName": "Alphabet Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0557,
+          "fmt": "5.57%"
+        }
+      },
+      {
+        "symbol": "PYPL",
+        "holdingName": "PayPal Holdings Inc",
+        "holdingPercent": {
+          "raw": 0.053200003,
+          "fmt": "5.32%"
+        }
+      },
+      {
+        "symbol": "GOOG",
+        "holdingName": "Alphabet Inc Class C",
+        "holdingPercent": {
+          "raw": 0.053000003,
+          "fmt": "5.30%"
+        }
+      },
+      {
+        "symbol": "CRM",
+        "holdingName": "Salesforce.com Inc",
+        "holdingPercent": {
+          "raw": 0.048600003,
+          "fmt": "4.86%"
+        }
+      },
+      {
+        "symbol": "NFLX",
+        "holdingName": "Netflix Inc",
+        "holdingPercent": {
+          "raw": 0.0482,
+          "fmt": "4.82%"
+        }
+      },
+      {
+        "symbol": "CSCO",
+        "holdingName": "Cisco Systems Inc",
+        "holdingPercent": {
+          "raw": 0.0462,
+          "fmt": "4.62%"
+        }
+      },
+      {
+        "symbol": "SNAP",
+        "holdingName": "Snap Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0309,
+          "fmt": "3.09%"
+        }
+      },
+      {
+        "symbol": "DOCU",
+        "holdingName": "DocuSign Inc",
+        "holdingPercent": {
+          "raw": 0.028099999,
+          "fmt": "2.81%"
+        }
+      }
+    ],
+    "bondHoldings": {
+      "maturity": {},
+      "duration": {},
+      "creditQuality": {},
+      "maturityCat": {},
+      "durationCat": {},
+      "creditQualityCat": {}
+    },
+    "bondRatings": [
+      {
+        "bb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aaa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "a": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "other": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "bbb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "below_b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "us_government": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      }
+    ],
+    "equityHoldings": {
+      "priceToCashflow": {
+        "raw": 25.58,
+        "fmt": "25.58"
+      },
+      "priceToSales": {
+        "raw": 5.86,
+        "fmt": "5.86"
+      },
+      "priceToBookCat": {},
+      "priceToEarningsCat": {},
+      "medianMarketCapCat": {},
+      "threeYearEarningsGrowthCat": {},
+      "threeYearEarningsGrowth": {},
+      "medianMarketCap": {},
+      "priceToEarnings": {
+        "raw": 25.56,
+        "fmt": "25.56"
+      },
+      "priceToBook": {
+        "raw": 8.38,
+        "fmt": "8.38"
+      },
+      "priceToSalesCat": {},
+      "priceToCashflowCat": {}
+    },
+    "otherPosition": {},
+    "maxAge": 1,
+    "cashPosition": {},
+    "stockPosition": {
+      "raw": 0.9994,
+      "fmt": "99.94%"
+    }
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "exchange": "PCX",
+    "regularMarketTime": 1672779600,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "shortName": "First Trust DJ Internet Index F",
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "regularMarketChange": {
+      "raw": 0.29999542,
+      "fmt": "0.30"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "postMarketTime": 1672787292,
+    "preMarketPrice": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "preMarketTime": 1672753625,
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": 0.300003,
+      "fmt": "0.30"
+    },
+    "postMarketPrice": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "exchangeName": "NYSEArca",
+    "preMarketChange": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 123.45,
+      "fmt": "123.45"
+    },
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "DELAYED",
+    "openInterest": {},
+    "marketState": "POST",
+    "underlyingSymbol": null,
+    "marketCap": {},
+    "quoteType": "ETF",
+    "preMarketChangePercent": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "FDN",
+    "postMarketChangePercent": {
+      "raw": 0.00243016,
+      "fmt": "0.24%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.0024360165,
+      "fmt": "0.24%"
+    }
+  },
+  "fundPerformance": {
+    "trailingReturns": {
+      "threeMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "oneYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "ytd": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBearMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "tenYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "oneMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "threeYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      }
+    },
+    "performanceOverview": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": -0.45529997,
+        "fmt": "-45.53%"
+      },
+      "fiveYrAvgReturnPct": {},
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "oneYearTotalReturn": {
+        "raw": -0.4591,
+        "fmt": "-45.91%"
+      },
+      "numYearsDown": {},
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {},
+      "threeYearTotalReturn": {
+        "raw": -0.0418,
+        "fmt": "-4.18%"
+      }
+    },
+    "riskOverviewStatistics": {
+      "riskRating": {},
+      "riskStatistics": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": -1.73,
+            "fmt": "-1.73"
+          },
+          "beta": {
+            "raw": 1.11,
+            "fmt": "1.11"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.56,
+            "fmt": "0.56"
+          },
+          "rSquared": {
+            "raw": 66.05,
+            "fmt": "66.05"
+          },
+          "stdDev": {
+            "raw": 23.97,
+            "fmt": "23.97"
+          },
+          "sharpeRatio": {
+            "raw": 0.35,
+            "fmt": "0.35"
+          },
+          "treynorRatio": {
+            "raw": 2.43,
+            "fmt": "2.43"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": -7.01,
+            "fmt": "-7.01"
+          },
+          "beta": {
+            "raw": 1.09,
+            "fmt": "1.09"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.18,
+            "fmt": "0.18"
+          },
+          "rSquared": {
+            "raw": 68.8,
+            "fmt": "68.8"
+          },
+          "stdDev": {
+            "raw": 26.43,
+            "fmt": "26.43"
+          },
+          "sharpeRatio": {
+            "raw": 0.28,
+            "fmt": "0.28"
+          },
+          "treynorRatio": {
+            "raw": -1.87,
+            "fmt": "-1.87"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 4.18,
+            "fmt": "4.18"
+          },
+          "beta": {
+            "raw": 1.12,
+            "fmt": "1.12"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.21,
+            "fmt": "1.21"
+          },
+          "rSquared": {
+            "raw": 62.86,
+            "fmt": "62.86"
+          },
+          "stdDev": {
+            "raw": 20.06,
+            "fmt": "20.06"
+          },
+          "sharpeRatio": {
+            "raw": 0.96,
+            "fmt": "0.96"
+          },
+          "treynorRatio": {
+            "raw": 11.19,
+            "fmt": "11.19"
+          }
+        }
+      ]
+    },
+    "riskOverviewStatisticsCat": {
+      "riskStatisticsCat": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": 5.86,
+            "fmt": "5.86"
+          },
+          "beta": {
+            "raw": 1.05,
+            "fmt": "1.05"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.22,
+            "fmt": "1.22"
+          },
+          "rSquared": {
+            "raw": 62.13,
+            "fmt": "62.13"
+          },
+          "stdDev": {
+            "raw": 15.41,
+            "fmt": "15.41"
+          },
+          "sharpeRatio": {
+            "raw": 0.95,
+            "fmt": "0.95"
+          },
+          "treynorRatio": {
+            "raw": 13.74,
+            "fmt": "13.74"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": 9.46,
+            "fmt": "9.46"
+          },
+          "beta": {
+            "raw": 1.1,
+            "fmt": "1.1"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.13,
+            "fmt": "1.13"
+          },
+          "rSquared": {
+            "raw": 63.2,
+            "fmt": "63.2"
+          },
+          "stdDev": {
+            "raw": 15.69,
+            "fmt": "15.69"
+          },
+          "sharpeRatio": {
+            "raw": 0.86,
+            "fmt": "0.86"
+          },
+          "treynorRatio": {
+            "raw": 11.9,
+            "fmt": "11.9"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 5.19,
+            "fmt": "5.19"
+          },
+          "beta": {
+            "raw": 1.04,
+            "fmt": "1.04"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.88,
+            "fmt": "0.88"
+          },
+          "rSquared": {
+            "raw": 72.67,
+            "fmt": "72.67"
+          },
+          "stdDev": {
+            "raw": 20.82,
+            "fmt": "20.82"
+          },
+          "sharpeRatio": {
+            "raw": 0.48,
+            "fmt": "0.48"
+          },
+          "treynorRatio": {
+            "raw": 7.7,
+            "fmt": "7.7"
+          }
+        }
+      ]
+    },
+    "performanceOverviewCat": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "fiveYrAvgReturnPct": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "numYearsDown": {},
+      "asOfDate": {},
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {}
+    },
+    "trailingReturnsCat": {
+      "threeMonth": {
+        "raw": 0.031,
+        "fmt": "3.10%"
+      },
+      "oneYear": {
+        "raw": 0.107700005,
+        "fmt": "10.77%"
+      },
+      "ytd": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "lastBearMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "tenYear": {
+        "raw": 0.0868,
+        "fmt": "8.68%"
+      },
+      "oneMonth": {
+        "raw": -0.028800001,
+        "fmt": "-2.88%"
+      },
+      "threeYear": {
+        "raw": 0.1317,
+        "fmt": "13.17%"
+      }
+    },
+    "maxAge": 1,
+    "pastQuarterlyReturns": {
+      "returns": []
+    },
+    "trailingReturnsNav": {
+      "ytd": {
+        "raw": -0.4552694,
+        "fmt": "-45.53%"
+      },
+      "oneMonth": {
+        "raw": -0.016849,
+        "fmt": "-1.68%"
+      },
+      "threeMonth": {
+        "raw": -0.0355632,
+        "fmt": "-3.56%"
+      },
+      "oneYear": {
+        "raw": -0.45909852,
+        "fmt": "-45.91%"
+      },
+      "threeYear": {
+        "raw": -0.041809402,
+        "fmt": "-4.18%"
+      },
+      "fiveYear": {
+        "raw": 0.0733182,
+        "fmt": "7.33%"
+      },
+      "tenYear": {
+        "raw": 0.1240088,
+        "fmt": "12.40%"
+      }
+    },
+    "annualTotalReturns": {
+      "returns": [
+        {
+          "year": "2022",
+          "annualValue": {}
+        },
+        {
+          "year": "2021",
+          "annualValue": {
+            "raw": 0.0643247,
+            "fmt": "6.43%"
+          }
+        },
+        {
+          "year": "2020",
+          "annualValue": {
+            "raw": 0.526452,
+            "fmt": "52.65%"
+          }
+        },
+        {
+          "year": "2019",
+          "annualValue": {
+            "raw": 0.1926275,
+            "fmt": "19.26%"
+          }
+        },
+        {
+          "year": "2018",
+          "annualValue": {
+            "raw": 0.062289402,
+            "fmt": "6.23%"
+          }
+        },
+        {
+          "year": "2017",
+          "annualValue": {
+            "raw": 0.3762376,
+            "fmt": "37.62%"
+          }
+        },
+        {
+          "year": "2016",
+          "annualValue": {
+            "raw": 0.069141105,
+            "fmt": "6.91%"
+          }
+        },
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.21765381,
+            "fmt": "21.77%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.0242313,
+            "fmt": "2.42%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.5339656,
+            "fmt": "53.40%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.2084882,
+            "fmt": "20.85%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": 0.057432,
+            "fmt": "5.74%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.3668457,
+            "fmt": "36.68%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7915774,
+            "fmt": "79.16%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": 0.44022572,
+            "fmt": "44.02%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.1117595,
+            "fmt": "11.18%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {}
+        }
+      ],
+      "returnsCat": [
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.0449924,
+            "fmt": "4.50%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.1421983,
+            "fmt": "14.22%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.3451226,
+            "fmt": "34.51%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.1058113,
+            "fmt": "10.58%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": -0.0918838,
+            "fmt": "-9.19%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.1908792,
+            "fmt": "19.09%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7608517,
+            "fmt": "76.09%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": -0.4716011,
+            "fmt": "-47.16%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.0818914,
+            "fmt": "8.19%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {
+            "raw": 0.095521,
+            "fmt": "9.55%"
+          }
+        },
+        {
+          "year": "2005",
+          "annualValue": {
+            "raw": 0.012559201,
+            "fmt": "1.26%"
+          }
+        },
+        {
+          "year": "2004",
+          "annualValue": {
+            "raw": 0.067329705,
+            "fmt": "6.73%"
+          }
+        },
+        {
+          "year": "2003",
+          "annualValue": {
+            "raw": 0.6501539,
+            "fmt": "65.02%"
+          }
+        },
+        {
+          "year": "2002",
+          "annualValue": {
+            "raw": -0.4454102,
+            "fmt": "-44.54%"
+          }
+        },
+        {
+          "year": "2001",
+          "annualValue": {
+            "raw": -0.32203338,
+            "fmt": "-32.20%"
+          }
+        },
+        {
+          "year": "2000",
+          "annualValue": {
+            "raw": -0.4220336,
+            "fmt": "-42.20%"
+          }
+        },
+        {
+          "year": "1999",
+          "annualValue": {
+            "raw": 0.6602748,
+            "fmt": "66.03%"
+          }
+        }
+      ]
+    }
+  },
+  "quoteType": {
+    "exchange": "PCX",
+    "shortName": "First Trust DJ Internet Index F",
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-18000000",
+    "quoteType": "ETF",
+    "symbol": "FDN",
+    "messageBoardId": "finmb_27775943",
+    "market": "us_market"
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "twoHundredDayAverage": {
+      "raw": 141.2107,
+      "fmt": "141.21"
+    },
+    "trailingAnnualDividendYield": {},
+    "payoutRatio": {},
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "navPrice": {
+      "raw": 123.12,
+      "fmt": "123.12"
+    },
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "fiftyDayAverage": {
+      "raw": 126.669,
+      "fmt": "126.67"
+    },
+    "trailingAnnualDividendRate": {},
+    "open": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "expireDate": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {},
+    "beta": {},
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {},
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "priceToSalesTrailing12Months": {},
+    "dayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "ask": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1000,
+      "fmt": "1k",
+      "longFmt": "1,000"
+    },
+    "volume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 226.83,
+      "fmt": "226.83"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 114.86,
+      "fmt": "114.86"
+    },
+    "bid": {
+      "raw": 123.02,
+      "fmt": "123.02"
+    },
+    "tradeable": true,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 800,
+      "fmt": "800",
+      "longFmt": "800"
+    },
+    "dayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "coinMarketCapLink": null
+  },
+  "symbol": "FDN",
+  "assetProfile": {
+    "phone": "NA",
+    "longBusinessSummary": "The fund will normally invest at least 90% of its net assets (including investment borrowings) in the common stocks that comprise the index. The index is designed to measure the performance of the largest and most actively traded securities issued by U.S. companies in the Internet industry. The index is a composite of its two sub-indices, the Dow Jones Internet Commerce Index and the Dow Jones Internet Services Index. It is non-diversified.",
+    "companyOfficers": [],
+    "maxAge": 86400
+  },
+  "esgScores": {},
+  "pageViews": {
+    "shortTermTrend": "UP",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  }
+}'''
+BAD_TEN_YEAR_YH_FINANCE_DATA = '''{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {},
+    "beta3Year": {
+      "raw": 1.09,
+      "fmt": "1.09"
+    },
+    "profitMargins": {},
+    "enterpriseToEbitda": {},
+    "52WeekChange": {},
+    "morningStarRiskRating": {},
+    "forwardEps": {},
+    "revenueQuarterlyGrowth": {},
+    "fundInceptionDate": {
+      "raw": 1150675200,
+      "fmt": "2006-06-19"
+    },
+    "annualReportExpenseRatio": {},
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "bookValue": {},
+    "fundFamily": "First Trust",
+    "lastFiscalYearEnd": {},
+    "netIncomeToCommon": {},
+    "trailingEps": {},
+    "lastDividendValue": {},
+    "SandP52WeekChange": {},
+    "priceToBook": {},
+    "nextFiscalYearEnd": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "mostRecentQuarter": {},
+    "enterpriseValue": {},
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {
+      "raw": -0.0418,
+      "fmt": "-4.18%"
+    },
+    "lastSplitDate": {},
+    "lastSplitFactor": null,
+    "legalType": "Exchange Traded Fund",
+    "lastDividendDate": {},
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "pegRatio": {},
+    "ytdReturn": {
+      "raw": -0.45529997,
+      "fmt": "-45.53%"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "lastCapGain": {},
+    "category": "Technology",
+    "fiveYearAverageReturn": {
+      "raw": 0.0231,
+      "fmt": "2.31%"
+    }
+  },
+  "fundProfile": {
+    "initInvestment": {},
+    "family": "First Trust",
+    "categoryName": "Technology",
+    "initAipInvestment": {},
+    "subseqIraInvestment": {},
+    "brokerages": [],
+    "managementInfo": {
+      "managerName": null,
+      "managerBio": null,
+      "startdate": {}
+    },
+    "subseqInvestment": {},
+    "legalType": "Exchange Traded Fund",
+    "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+    "feesExpensesInvestment": {
+      "annualHoldingsTurnover": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "frontEndSalesLoad": {},
+      "annualReportExpenseRatio": {
+        "raw": 0.0050999997,
+        "fmt": "0.51%"
+      },
+      "netExpRatio": {},
+      "projectionValues": {},
+      "grossExpRatio": {},
+      "deferredSalesLoad": {},
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "twelveBOne": {}
+    },
+    "maxAge": 1,
+    "feesExpensesInvestmentCat": {
+      "annualReportExpenseRatio": {
+        "raw": 0.0053,
+        "fmt": "0.53%"
+      },
+      "frontEndSalesLoad": {},
+      "deferredSalesLoad": {},
+      "twelveBOne": {},
+      "annualHoldingsTurnover": {
+        "raw": 32.42,
+        "fmt": "3,242.00%"
+      },
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "projectionValuesCat": {}
+    },
+    "initIraInvestment": {},
+    "subseqAipInvestment": {}
+  },
+  "financialsTemplate": {},
+  "topHoldings": {
+    "preferredPosition": {},
+    "bondPosition": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "convertiblePosition": {},
+    "sectorWeightings": [
+      {
+        "realestate": {
+          "raw": 0.0037,
+          "fmt": "0.37%"
+        }
+      },
+      {
+        "consumer_cyclical": {
+          "raw": 0.17819999,
+          "fmt": "17.82%"
+        }
+      },
+      {
+        "basic_materials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "consumer_defensive": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "technology": {
+          "raw": 0.4548,
+          "fmt": "45.48%"
+        }
+      },
+      {
+        "communication_services": {
+          "raw": 0.2861,
+          "fmt": "28.61%"
+        }
+      },
+      {
+        "financial_services": {
+          "raw": 0.0376,
+          "fmt": "3.76%"
+        }
+      },
+      {
+        "utilities": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "industrials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "energy": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "healthcare": {
+          "raw": 0.039,
+          "fmt": "3.90%"
+        }
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "AMZN",
+        "holdingName": "Amazon.com Inc",
+        "holdingPercent": {
+          "raw": 0.0936,
+          "fmt": "9.36%"
+        }
+      },
+      {
+        "symbol": "FB",
+        "holdingName": "Facebook Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0798,
+          "fmt": "7.98%"
+        }
+      },
+      {
+        "symbol": "GOOGL",
+        "holdingName": "Alphabet Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0557,
+          "fmt": "5.57%"
+        }
+      },
+      {
+        "symbol": "PYPL",
+        "holdingName": "PayPal Holdings Inc",
+        "holdingPercent": {
+          "raw": 0.053200003,
+          "fmt": "5.32%"
+        }
+      },
+      {
+        "symbol": "GOOG",
+        "holdingName": "Alphabet Inc Class C",
+        "holdingPercent": {
+          "raw": 0.053000003,
+          "fmt": "5.30%"
+        }
+      },
+      {
+        "symbol": "CRM",
+        "holdingName": "Salesforce.com Inc",
+        "holdingPercent": {
+          "raw": 0.048600003,
+          "fmt": "4.86%"
+        }
+      },
+      {
+        "symbol": "NFLX",
+        "holdingName": "Netflix Inc",
+        "holdingPercent": {
+          "raw": 0.0482,
+          "fmt": "4.82%"
+        }
+      },
+      {
+        "symbol": "CSCO",
+        "holdingName": "Cisco Systems Inc",
+        "holdingPercent": {
+          "raw": 0.0462,
+          "fmt": "4.62%"
+        }
+      },
+      {
+        "symbol": "SNAP",
+        "holdingName": "Snap Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0309,
+          "fmt": "3.09%"
+        }
+      },
+      {
+        "symbol": "DOCU",
+        "holdingName": "DocuSign Inc",
+        "holdingPercent": {
+          "raw": 0.028099999,
+          "fmt": "2.81%"
+        }
+      }
+    ],
+    "bondHoldings": {
+      "maturity": {},
+      "duration": {},
+      "creditQuality": {},
+      "maturityCat": {},
+      "durationCat": {},
+      "creditQualityCat": {}
+    },
+    "bondRatings": [
+      {
+        "bb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aaa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "a": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "other": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "bbb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "below_b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "us_government": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      }
+    ],
+    "equityHoldings": {
+      "priceToCashflow": {
+        "raw": 25.58,
+        "fmt": "25.58"
+      },
+      "priceToSales": {
+        "raw": 5.86,
+        "fmt": "5.86"
+      },
+      "priceToBookCat": {},
+      "priceToEarningsCat": {},
+      "medianMarketCapCat": {},
+      "threeYearEarningsGrowthCat": {},
+      "threeYearEarningsGrowth": {},
+      "medianMarketCap": {},
+      "priceToEarnings": {
+        "raw": 25.56,
+        "fmt": "25.56"
+      },
+      "priceToBook": {
+        "raw": 8.38,
+        "fmt": "8.38"
+      },
+      "priceToSalesCat": {},
+      "priceToCashflowCat": {}
+    },
+    "otherPosition": {},
+    "maxAge": 1,
+    "cashPosition": {},
+    "stockPosition": {
+      "raw": 0.9994,
+      "fmt": "99.94%"
+    }
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "exchange": "PCX",
+    "regularMarketTime": 1672779600,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "shortName": "First Trust DJ Internet Index F",
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "regularMarketChange": {
+      "raw": 0.29999542,
+      "fmt": "0.30"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "postMarketTime": 1672787292,
+    "preMarketPrice": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "preMarketTime": 1672753625,
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": 0.300003,
+      "fmt": "0.30"
+    },
+    "postMarketPrice": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "exchangeName": "NYSEArca",
+    "preMarketChange": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 123.45,
+      "fmt": "123.45"
+    },
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "DELAYED",
+    "openInterest": {},
+    "marketState": "POST",
+    "underlyingSymbol": null,
+    "marketCap": {},
+    "quoteType": "ETF",
+    "preMarketChangePercent": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "FDN",
+    "postMarketChangePercent": {
+      "raw": 0.00243016,
+      "fmt": "0.24%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.0024360165,
+      "fmt": "0.24%"
+    }
+  },
+  "fundPerformance": {
+    "trailingReturns": {
+      "threeMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "oneYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "ytd": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBearMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "tenYear": {
+        "raw": -0.1,
+        "fmt": "-10.00%"
+      },
+      "oneMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "threeYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      }
+    },
+    "performanceOverview": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": -0.45529997,
+        "fmt": "-45.53%"
+      },
+      "fiveYrAvgReturnPct": {},
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "oneYearTotalReturn": {
+        "raw": -0.4591,
+        "fmt": "-45.91%"
+      },
+      "numYearsDown": {},
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {},
+      "threeYearTotalReturn": {
+        "raw": -0.0418,
+        "fmt": "-4.18%"
+      }
+    },
+    "riskOverviewStatistics": {
+      "riskRating": {},
+      "riskStatistics": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": -1.73,
+            "fmt": "-1.73"
+          },
+          "beta": {
+            "raw": 1.11,
+            "fmt": "1.11"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.56,
+            "fmt": "0.56"
+          },
+          "rSquared": {
+            "raw": 66.05,
+            "fmt": "66.05"
+          },
+          "stdDev": {
+            "raw": 23.97,
+            "fmt": "23.97"
+          },
+          "sharpeRatio": {
+            "raw": 0.35,
+            "fmt": "0.35"
+          },
+          "treynorRatio": {
+            "raw": 2.43,
+            "fmt": "2.43"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": -7.01,
+            "fmt": "-7.01"
+          },
+          "beta": {
+            "raw": 1.09,
+            "fmt": "1.09"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.18,
+            "fmt": "0.18"
+          },
+          "rSquared": {
+            "raw": 68.8,
+            "fmt": "68.8"
+          },
+          "stdDev": {
+            "raw": 26.43,
+            "fmt": "26.43"
+          },
+          "sharpeRatio": {
+            "raw": 0.28,
+            "fmt": "0.28"
+          },
+          "treynorRatio": {
+            "raw": -1.87,
+            "fmt": "-1.87"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 4.18,
+            "fmt": "4.18"
+          },
+          "beta": {
+            "raw": 1.12,
+            "fmt": "1.12"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.21,
+            "fmt": "1.21"
+          },
+          "rSquared": {
+            "raw": 62.86,
+            "fmt": "62.86"
+          },
+          "stdDev": {
+            "raw": 20.06,
+            "fmt": "20.06"
+          },
+          "sharpeRatio": {
+            "raw": 0.96,
+            "fmt": "0.96"
+          },
+          "treynorRatio": {
+            "raw": 11.19,
+            "fmt": "11.19"
+          }
+        }
+      ]
+    },
+    "riskOverviewStatisticsCat": {
+      "riskStatisticsCat": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": 5.86,
+            "fmt": "5.86"
+          },
+          "beta": {
+            "raw": 1.05,
+            "fmt": "1.05"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.22,
+            "fmt": "1.22"
+          },
+          "rSquared": {
+            "raw": 62.13,
+            "fmt": "62.13"
+          },
+          "stdDev": {
+            "raw": 15.41,
+            "fmt": "15.41"
+          },
+          "sharpeRatio": {
+            "raw": 0.95,
+            "fmt": "0.95"
+          },
+          "treynorRatio": {
+            "raw": 13.74,
+            "fmt": "13.74"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": 9.46,
+            "fmt": "9.46"
+          },
+          "beta": {
+            "raw": 1.1,
+            "fmt": "1.1"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.13,
+            "fmt": "1.13"
+          },
+          "rSquared": {
+            "raw": 63.2,
+            "fmt": "63.2"
+          },
+          "stdDev": {
+            "raw": 15.69,
+            "fmt": "15.69"
+          },
+          "sharpeRatio": {
+            "raw": 0.86,
+            "fmt": "0.86"
+          },
+          "treynorRatio": {
+            "raw": 11.9,
+            "fmt": "11.9"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 5.19,
+            "fmt": "5.19"
+          },
+          "beta": {
+            "raw": 1.04,
+            "fmt": "1.04"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.88,
+            "fmt": "0.88"
+          },
+          "rSquared": {
+            "raw": 72.67,
+            "fmt": "72.67"
+          },
+          "stdDev": {
+            "raw": 20.82,
+            "fmt": "20.82"
+          },
+          "sharpeRatio": {
+            "raw": 0.48,
+            "fmt": "0.48"
+          },
+          "treynorRatio": {
+            "raw": 7.7,
+            "fmt": "7.7"
+          }
+        }
+      ]
+    },
+    "performanceOverviewCat": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "fiveYrAvgReturnPct": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "numYearsDown": {},
+      "asOfDate": {},
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {}
+    },
+    "trailingReturnsCat": {
+      "threeMonth": {
+        "raw": 0.031,
+        "fmt": "3.10%"
+      },
+      "oneYear": {
+        "raw": 0.107700005,
+        "fmt": "10.77%"
+      },
+      "ytd": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "lastBearMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "tenYear": {
+        "raw": 0.0868,
+        "fmt": "8.68%"
+      },
+      "oneMonth": {
+        "raw": -0.028800001,
+        "fmt": "-2.88%"
+      },
+      "threeYear": {
+        "raw": 0.1317,
+        "fmt": "13.17%"
+      }
+    },
+    "maxAge": 1,
+    "pastQuarterlyReturns": {
+      "returns": []
+    },
+    "trailingReturnsNav": {
+      "ytd": {
+        "raw": -0.4552694,
+        "fmt": "-45.53%"
+      },
+      "oneMonth": {
+        "raw": -0.016849,
+        "fmt": "-1.68%"
+      },
+      "threeMonth": {
+        "raw": -0.0355632,
+        "fmt": "-3.56%"
+      },
+      "oneYear": {
+        "raw": -0.45909852,
+        "fmt": "-45.91%"
+      },
+      "threeYear": {
+        "raw": -0.041809402,
+        "fmt": "-4.18%"
+      },
+      "fiveYear": {
+        "raw": 0.0733182,
+        "fmt": "7.33%"
+      },
+      "tenYear": {
+        "raw": 0.1240088,
+        "fmt": "12.40%"
+      }
+    },
+    "annualTotalReturns": {
+      "returns": [
+        {
+          "year": "2022",
+          "annualValue": {}
+        },
+        {
+          "year": "2021",
+          "annualValue": {
+            "raw": 0.0643247,
+            "fmt": "6.43%"
+          }
+        },
+        {
+          "year": "2020",
+          "annualValue": {
+            "raw": 0.526452,
+            "fmt": "52.65%"
+          }
+        },
+        {
+          "year": "2019",
+          "annualValue": {
+            "raw": 0.1926275,
+            "fmt": "19.26%"
+          }
+        },
+        {
+          "year": "2018",
+          "annualValue": {
+            "raw": 0.062289402,
+            "fmt": "6.23%"
+          }
+        },
+        {
+          "year": "2017",
+          "annualValue": {
+            "raw": 0.3762376,
+            "fmt": "37.62%"
+          }
+        },
+        {
+          "year": "2016",
+          "annualValue": {
+            "raw": 0.069141105,
+            "fmt": "6.91%"
+          }
+        },
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.21765381,
+            "fmt": "21.77%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.0242313,
+            "fmt": "2.42%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.5339656,
+            "fmt": "53.40%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.2084882,
+            "fmt": "20.85%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": 0.057432,
+            "fmt": "5.74%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.3668457,
+            "fmt": "36.68%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7915774,
+            "fmt": "79.16%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": 0.44022572,
+            "fmt": "44.02%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.1117595,
+            "fmt": "11.18%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {}
+        }
+      ],
+      "returnsCat": [
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.0449924,
+            "fmt": "4.50%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.1421983,
+            "fmt": "14.22%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.3451226,
+            "fmt": "34.51%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.1058113,
+            "fmt": "10.58%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": -0.0918838,
+            "fmt": "-9.19%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.1908792,
+            "fmt": "19.09%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7608517,
+            "fmt": "76.09%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": -0.4716011,
+            "fmt": "-47.16%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.0818914,
+            "fmt": "8.19%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {
+            "raw": 0.095521,
+            "fmt": "9.55%"
+          }
+        },
+        {
+          "year": "2005",
+          "annualValue": {
+            "raw": 0.012559201,
+            "fmt": "1.26%"
+          }
+        },
+        {
+          "year": "2004",
+          "annualValue": {
+            "raw": 0.067329705,
+            "fmt": "6.73%"
+          }
+        },
+        {
+          "year": "2003",
+          "annualValue": {
+            "raw": 0.6501539,
+            "fmt": "65.02%"
+          }
+        },
+        {
+          "year": "2002",
+          "annualValue": {
+            "raw": -0.4454102,
+            "fmt": "-44.54%"
+          }
+        },
+        {
+          "year": "2001",
+          "annualValue": {
+            "raw": -0.32203338,
+            "fmt": "-32.20%"
+          }
+        },
+        {
+          "year": "2000",
+          "annualValue": {
+            "raw": -0.4220336,
+            "fmt": "-42.20%"
+          }
+        },
+        {
+          "year": "1999",
+          "annualValue": {
+            "raw": 0.6602748,
+            "fmt": "66.03%"
+          }
+        }
+      ]
+    }
+  },
+  "quoteType": {
+    "exchange": "PCX",
+    "shortName": "First Trust DJ Internet Index F",
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-18000000",
+    "quoteType": "ETF",
+    "symbol": "FDN",
+    "messageBoardId": "finmb_27775943",
+    "market": "us_market"
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "twoHundredDayAverage": {
+      "raw": 141.2107,
+      "fmt": "141.21"
+    },
+    "trailingAnnualDividendYield": {},
+    "payoutRatio": {},
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "navPrice": {
+      "raw": 123.12,
+      "fmt": "123.12"
+    },
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "fiftyDayAverage": {
+      "raw": 126.669,
+      "fmt": "126.67"
+    },
+    "trailingAnnualDividendRate": {},
+    "open": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "expireDate": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {},
+    "beta": {},
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {},
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "priceToSalesTrailing12Months": {},
+    "dayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "ask": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1000,
+      "fmt": "1k",
+      "longFmt": "1,000"
+    },
+    "volume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 226.83,
+      "fmt": "226.83"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 114.86,
+      "fmt": "114.86"
+    },
+    "bid": {
+      "raw": 123.02,
+      "fmt": "123.02"
+    },
+    "tradeable": true,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 800,
+      "fmt": "800",
+      "longFmt": "800"
+    },
+    "dayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "coinMarketCapLink": null
+  },
+  "symbol": "FDN",
+  "assetProfile": {
+    "phone": "NA",
+    "longBusinessSummary": "The fund will normally invest at least 90% of its net assets (including investment borrowings) in the common stocks that comprise the index. The index is designed to measure the performance of the largest and most actively traded securities issued by U.S. companies in the Internet industry. The index is a composite of its two sub-indices, the Dow Jones Internet Commerce Index and the Dow Jones Internet Services Index. It is non-diversified.",
+    "companyOfficers": [],
+    "maxAge": 86400
+  },
+  "esgScores": {},
+  "pageViews": {
+    "shortTermTrend": "UP",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  }
+}'''
+BAD_12B1_FINANCE_DATA = '''{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {},
+    "beta3Year": {
+      "raw": 1.09,
+      "fmt": "1.09"
+    },
+    "profitMargins": {},
+    "enterpriseToEbitda": {},
+    "52WeekChange": {},
+    "morningStarRiskRating": {},
+    "forwardEps": {},
+    "revenueQuarterlyGrowth": {},
+    "fundInceptionDate": {
+      "raw": 1150675200,
+      "fmt": "2006-06-19"
+    },
+    "annualReportExpenseRatio": {},
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "bookValue": {},
+    "fundFamily": "First Trust",
+    "lastFiscalYearEnd": {},
+    "netIncomeToCommon": {},
+    "trailingEps": {},
+    "lastDividendValue": {},
+    "SandP52WeekChange": {},
+    "priceToBook": {},
+    "nextFiscalYearEnd": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "mostRecentQuarter": {},
+    "enterpriseValue": {},
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {
+      "raw": -0.0418,
+      "fmt": "-4.18%"
+    },
+    "lastSplitDate": {},
+    "lastSplitFactor": null,
+    "legalType": "Exchange Traded Fund",
+    "lastDividendDate": {},
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "pegRatio": {},
+    "ytdReturn": {
+      "raw": -0.45529997,
+      "fmt": "-45.53%"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "lastCapGain": {},
+    "category": "Technology",
+    "fiveYearAverageReturn": {
+      "raw": 0.0231,
+      "fmt": "2.31%"
+    }
+  },
+  "fundProfile": {
+    "initInvestment": {},
+    "family": "First Trust",
+    "categoryName": "Technology",
+    "initAipInvestment": {},
+    "subseqIraInvestment": {},
+    "brokerages": [],
+    "managementInfo": {
+      "managerName": null,
+      "managerBio": null,
+      "startdate": {}
+    },
+    "subseqInvestment": {},
+    "legalType": "Exchange Traded Fund",
+    "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+    "feesExpensesInvestment": {
+      "annualHoldingsTurnover": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "frontEndSalesLoad": {},
+      "annualReportExpenseRatio": {
+        "raw": 0.0050999997,
+        "fmt": "0.51%"
+      },
+      "netExpRatio": {},
+      "projectionValues": {},
+      "grossExpRatio": {},
+      "deferredSalesLoad": {},
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "twelveBOne": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+        }
+    },
+    "maxAge": 1,
+    "feesExpensesInvestmentCat": {
+      "annualReportExpenseRatio": {
+        "raw": 0.0053,
+        "fmt": "0.53%"
+      },
+      "frontEndSalesLoad": {},
+      "deferredSalesLoad": {},
+      "twelveBOne": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+        },
+      "annualHoldingsTurnover": {
+        "raw": 32.42,
+        "fmt": "3,242.00%"
+      },
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "projectionValuesCat": {}
+    },
+    "initIraInvestment": {},
+    "subseqAipInvestment": {}
+  },
+  "financialsTemplate": {},
+  "topHoldings": {
+    "preferredPosition": {},
+    "bondPosition": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "convertiblePosition": {},
+    "sectorWeightings": [
+      {
+        "realestate": {
+          "raw": 0.0037,
+          "fmt": "0.37%"
+        }
+      },
+      {
+        "consumer_cyclical": {
+          "raw": 0.17819999,
+          "fmt": "17.82%"
+        }
+      },
+      {
+        "basic_materials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "consumer_defensive": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "technology": {
+          "raw": 0.4548,
+          "fmt": "45.48%"
+        }
+      },
+      {
+        "communication_services": {
+          "raw": 0.2861,
+          "fmt": "28.61%"
+        }
+      },
+      {
+        "financial_services": {
+          "raw": 0.0376,
+          "fmt": "3.76%"
+        }
+      },
+      {
+        "utilities": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "industrials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "energy": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "healthcare": {
+          "raw": 0.039,
+          "fmt": "3.90%"
+        }
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "AMZN",
+        "holdingName": "Amazon.com Inc",
+        "holdingPercent": {
+          "raw": 0.0936,
+          "fmt": "9.36%"
+        }
+      },
+      {
+        "symbol": "FB",
+        "holdingName": "Facebook Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0798,
+          "fmt": "7.98%"
+        }
+      },
+      {
+        "symbol": "GOOGL",
+        "holdingName": "Alphabet Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0557,
+          "fmt": "5.57%"
+        }
+      },
+      {
+        "symbol": "PYPL",
+        "holdingName": "PayPal Holdings Inc",
+        "holdingPercent": {
+          "raw": 0.053200003,
+          "fmt": "5.32%"
+        }
+      },
+      {
+        "symbol": "GOOG",
+        "holdingName": "Alphabet Inc Class C",
+        "holdingPercent": {
+          "raw": 0.053000003,
+          "fmt": "5.30%"
+        }
+      },
+      {
+        "symbol": "CRM",
+        "holdingName": "Salesforce.com Inc",
+        "holdingPercent": {
+          "raw": 0.048600003,
+          "fmt": "4.86%"
+        }
+      },
+      {
+        "symbol": "NFLX",
+        "holdingName": "Netflix Inc",
+        "holdingPercent": {
+          "raw": 0.0482,
+          "fmt": "4.82%"
+        }
+      },
+      {
+        "symbol": "CSCO",
+        "holdingName": "Cisco Systems Inc",
+        "holdingPercent": {
+          "raw": 0.0462,
+          "fmt": "4.62%"
+        }
+      },
+      {
+        "symbol": "SNAP",
+        "holdingName": "Snap Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0309,
+          "fmt": "3.09%"
+        }
+      },
+      {
+        "symbol": "DOCU",
+        "holdingName": "DocuSign Inc",
+        "holdingPercent": {
+          "raw": 0.028099999,
+          "fmt": "2.81%"
+        }
+      }
+    ],
+    "bondHoldings": {
+      "maturity": {},
+      "duration": {},
+      "creditQuality": {},
+      "maturityCat": {},
+      "durationCat": {},
+      "creditQualityCat": {}
+    },
+    "bondRatings": [
+      {
+        "bb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aaa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "a": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "other": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "bbb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "below_b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "us_government": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      }
+    ],
+    "equityHoldings": {
+      "priceToCashflow": {
+        "raw": 25.58,
+        "fmt": "25.58"
+      },
+      "priceToSales": {
+        "raw": 5.86,
+        "fmt": "5.86"
+      },
+      "priceToBookCat": {},
+      "priceToEarningsCat": {},
+      "medianMarketCapCat": {},
+      "threeYearEarningsGrowthCat": {},
+      "threeYearEarningsGrowth": {},
+      "medianMarketCap": {},
+      "priceToEarnings": {
+        "raw": 25.56,
+        "fmt": "25.56"
+      },
+      "priceToBook": {
+        "raw": 8.38,
+        "fmt": "8.38"
+      },
+      "priceToSalesCat": {},
+      "priceToCashflowCat": {}
+    },
+    "otherPosition": {},
+    "maxAge": 1,
+    "cashPosition": {},
+    "stockPosition": {
+      "raw": 0.9994,
+      "fmt": "99.94%"
+    }
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "exchange": "PCX",
+    "regularMarketTime": 1672779600,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "shortName": "First Trust DJ Internet Index F",
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "regularMarketChange": {
+      "raw": 0.29999542,
+      "fmt": "0.30"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "postMarketTime": 1672787292,
+    "preMarketPrice": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "preMarketTime": 1672753625,
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": 0.300003,
+      "fmt": "0.30"
+    },
+    "postMarketPrice": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "exchangeName": "NYSEArca",
+    "preMarketChange": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 123.45,
+      "fmt": "123.45"
+    },
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "DELAYED",
+    "openInterest": {},
+    "marketState": "POST",
+    "underlyingSymbol": null,
+    "marketCap": {},
+    "quoteType": "ETF",
+    "preMarketChangePercent": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "FDN",
+    "postMarketChangePercent": {
+      "raw": 0.00243016,
+      "fmt": "0.24%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.0024360165,
+      "fmt": "0.24%"
+    }
+  },
+  "fundPerformance": {
+    "trailingReturns": {
+      "threeMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "oneYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "ytd": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBearMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "tenYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "oneMonth": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      },
+      "threeYear": {
+        "raw": 0.1,
+        "fmt": "10.00%"
+      }
+    },
+    "performanceOverview": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": -0.45529997,
+        "fmt": "-45.53%"
+      },
+      "fiveYrAvgReturnPct": {},
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "oneYearTotalReturn": {
+        "raw": -0.4591,
+        "fmt": "-45.91%"
+      },
+      "numYearsDown": {},
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {},
+      "threeYearTotalReturn": {
+        "raw": -0.0418,
+        "fmt": "-4.18%"
+      }
+    },
+    "riskOverviewStatistics": {
+      "riskRating": {},
+      "riskStatistics": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": -1.73,
+            "fmt": "-1.73"
+          },
+          "beta": {
+            "raw": 1.11,
+            "fmt": "1.11"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.56,
+            "fmt": "0.56"
+          },
+          "rSquared": {
+            "raw": 66.05,
+            "fmt": "66.05"
+          },
+          "stdDev": {
+            "raw": 23.97,
+            "fmt": "23.97"
+          },
+          "sharpeRatio": {
+            "raw": 0.35,
+            "fmt": "0.35"
+          },
+          "treynorRatio": {
+            "raw": 2.43,
+            "fmt": "2.43"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": -7.01,
+            "fmt": "-7.01"
+          },
+          "beta": {
+            "raw": 1.09,
+            "fmt": "1.09"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.18,
+            "fmt": "0.18"
+          },
+          "rSquared": {
+            "raw": 68.8,
+            "fmt": "68.8"
+          },
+          "stdDev": {
+            "raw": 26.43,
+            "fmt": "26.43"
+          },
+          "sharpeRatio": {
+            "raw": 0.28,
+            "fmt": "0.28"
+          },
+          "treynorRatio": {
+            "raw": -1.87,
+            "fmt": "-1.87"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 4.18,
+            "fmt": "4.18"
+          },
+          "beta": {
+            "raw": 1.12,
+            "fmt": "1.12"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.21,
+            "fmt": "1.21"
+          },
+          "rSquared": {
+            "raw": 62.86,
+            "fmt": "62.86"
+          },
+          "stdDev": {
+            "raw": 20.06,
+            "fmt": "20.06"
+          },
+          "sharpeRatio": {
+            "raw": 0.96,
+            "fmt": "0.96"
+          },
+          "treynorRatio": {
+            "raw": 11.19,
+            "fmt": "11.19"
+          }
+        }
+      ]
+    },
+    "riskOverviewStatisticsCat": {
+      "riskStatisticsCat": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": 5.86,
+            "fmt": "5.86"
+          },
+          "beta": {
+            "raw": 1.05,
+            "fmt": "1.05"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.22,
+            "fmt": "1.22"
+          },
+          "rSquared": {
+            "raw": 62.13,
+            "fmt": "62.13"
+          },
+          "stdDev": {
+            "raw": 15.41,
+            "fmt": "15.41"
+          },
+          "sharpeRatio": {
+            "raw": 0.95,
+            "fmt": "0.95"
+          },
+          "treynorRatio": {
+            "raw": 13.74,
+            "fmt": "13.74"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": 9.46,
+            "fmt": "9.46"
+          },
+          "beta": {
+            "raw": 1.1,
+            "fmt": "1.1"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.13,
+            "fmt": "1.13"
+          },
+          "rSquared": {
+            "raw": 63.2,
+            "fmt": "63.2"
+          },
+          "stdDev": {
+            "raw": 15.69,
+            "fmt": "15.69"
+          },
+          "sharpeRatio": {
+            "raw": 0.86,
+            "fmt": "0.86"
+          },
+          "treynorRatio": {
+            "raw": 11.9,
+            "fmt": "11.9"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 5.19,
+            "fmt": "5.19"
+          },
+          "beta": {
+            "raw": 1.04,
+            "fmt": "1.04"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.88,
+            "fmt": "0.88"
+          },
+          "rSquared": {
+            "raw": 72.67,
+            "fmt": "72.67"
+          },
+          "stdDev": {
+            "raw": 20.82,
+            "fmt": "20.82"
+          },
+          "sharpeRatio": {
+            "raw": 0.48,
+            "fmt": "0.48"
+          },
+          "treynorRatio": {
+            "raw": 7.7,
+            "fmt": "7.7"
+          }
+        }
+      ]
+    },
+    "performanceOverviewCat": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "fiveYrAvgReturnPct": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "numYearsDown": {},
+      "asOfDate": {},
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {}
+    },
+    "trailingReturnsCat": {
+      "threeMonth": {
+        "raw": 0.031,
+        "fmt": "3.10%"
+      },
+      "oneYear": {
+        "raw": 0.107700005,
+        "fmt": "10.77%"
+      },
+      "ytd": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "lastBearMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "tenYear": {
+        "raw": 0.0868,
+        "fmt": "8.68%"
+      },
+      "oneMonth": {
+        "raw": -0.028800001,
+        "fmt": "-2.88%"
+      },
+      "threeYear": {
+        "raw": 0.1317,
+        "fmt": "13.17%"
+      }
+    },
+    "maxAge": 1,
+    "pastQuarterlyReturns": {
+      "returns": []
+    },
+    "trailingReturnsNav": {
+      "ytd": {
+        "raw": -0.4552694,
+        "fmt": "-45.53%"
+      },
+      "oneMonth": {
+        "raw": -0.016849,
+        "fmt": "-1.68%"
+      },
+      "threeMonth": {
+        "raw": -0.0355632,
+        "fmt": "-3.56%"
+      },
+      "oneYear": {
+        "raw": -0.45909852,
+        "fmt": "-45.91%"
+      },
+      "threeYear": {
+        "raw": -0.041809402,
+        "fmt": "-4.18%"
+      },
+      "fiveYear": {
+        "raw": 0.0733182,
+        "fmt": "7.33%"
+      },
+      "tenYear": {
+        "raw": 0.1240088,
+        "fmt": "12.40%"
+      }
+    },
+    "annualTotalReturns": {
+      "returns": [
+        {
+          "year": "2022",
+          "annualValue": {}
+        },
+        {
+          "year": "2021",
+          "annualValue": {
+            "raw": 0.0643247,
+            "fmt": "6.43%"
+          }
+        },
+        {
+          "year": "2020",
+          "annualValue": {
+            "raw": 0.526452,
+            "fmt": "52.65%"
+          }
+        },
+        {
+          "year": "2019",
+          "annualValue": {
+            "raw": 0.1926275,
+            "fmt": "19.26%"
+          }
+        },
+        {
+          "year": "2018",
+          "annualValue": {
+            "raw": 0.062289402,
+            "fmt": "6.23%"
+          }
+        },
+        {
+          "year": "2017",
+          "annualValue": {
+            "raw": 0.3762376,
+            "fmt": "37.62%"
+          }
+        },
+        {
+          "year": "2016",
+          "annualValue": {
+            "raw": 0.069141105,
+            "fmt": "6.91%"
+          }
+        },
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.21765381,
+            "fmt": "21.77%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.0242313,
+            "fmt": "2.42%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.5339656,
+            "fmt": "53.40%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.2084882,
+            "fmt": "20.85%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": 0.057432,
+            "fmt": "5.74%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.3668457,
+            "fmt": "36.68%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7915774,
+            "fmt": "79.16%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": 0.44022572,
+            "fmt": "44.02%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.1117595,
+            "fmt": "11.18%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {}
+        }
+      ],
+      "returnsCat": [
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.0449924,
+            "fmt": "4.50%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.1421983,
+            "fmt": "14.22%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.3451226,
+            "fmt": "34.51%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.1058113,
+            "fmt": "10.58%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": -0.0918838,
+            "fmt": "-9.19%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.1908792,
+            "fmt": "19.09%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7608517,
+            "fmt": "76.09%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": -0.4716011,
+            "fmt": "-47.16%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.0818914,
+            "fmt": "8.19%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {
+            "raw": 0.095521,
+            "fmt": "9.55%"
+          }
+        },
+        {
+          "year": "2005",
+          "annualValue": {
+            "raw": 0.012559201,
+            "fmt": "1.26%"
+          }
+        },
+        {
+          "year": "2004",
+          "annualValue": {
+            "raw": 0.067329705,
+            "fmt": "6.73%"
+          }
+        },
+        {
+          "year": "2003",
+          "annualValue": {
+            "raw": 0.6501539,
+            "fmt": "65.02%"
+          }
+        },
+        {
+          "year": "2002",
+          "annualValue": {
+            "raw": -0.4454102,
+            "fmt": "-44.54%"
+          }
+        },
+        {
+          "year": "2001",
+          "annualValue": {
+            "raw": -0.32203338,
+            "fmt": "-32.20%"
+          }
+        },
+        {
+          "year": "2000",
+          "annualValue": {
+            "raw": -0.4220336,
+            "fmt": "-42.20%"
+          }
+        },
+        {
+          "year": "1999",
+          "annualValue": {
+            "raw": 0.6602748,
+            "fmt": "66.03%"
+          }
+        }
+      ]
+    }
+  },
+  "quoteType": {
+    "exchange": "PCX",
+    "shortName": "First Trust DJ Internet Index F",
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-18000000",
+    "quoteType": "ETF",
+    "symbol": "FDN",
+    "messageBoardId": "finmb_27775943",
+    "market": "us_market"
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "twoHundredDayAverage": {
+      "raw": 141.2107,
+      "fmt": "141.21"
+    },
+    "trailingAnnualDividendYield": {},
+    "payoutRatio": {},
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "navPrice": {
+      "raw": 123.12,
+      "fmt": "123.12"
+    },
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "fiftyDayAverage": {
+      "raw": 126.669,
+      "fmt": "126.67"
+    },
+    "trailingAnnualDividendRate": {},
+    "open": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "expireDate": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {},
+    "beta": {},
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {},
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "priceToSalesTrailing12Months": {},
+    "dayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "ask": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1000,
+      "fmt": "1k",
+      "longFmt": "1,000"
+    },
+    "volume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 226.83,
+      "fmt": "226.83"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 114.86,
+      "fmt": "114.86"
+    },
+    "bid": {
+      "raw": 123.02,
+      "fmt": "123.02"
+    },
+    "tradeable": true,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 800,
+      "fmt": "800",
+      "longFmt": "800"
+    },
+    "dayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "coinMarketCapLink": null
+  },
+  "symbol": "FDN",
+  "assetProfile": {
+    "phone": "NA",
+    "longBusinessSummary": "The fund will normally invest at least 90% of its net assets (including investment borrowings) in the common stocks that comprise the index. The index is designed to measure the performance of the largest and most actively traded securities issued by U.S. companies in the Internet industry. The index is a composite of its two sub-indices, the Dow Jones Internet Commerce Index and the Dow Jones Internet Services Index. It is non-diversified.",
+    "companyOfficers": [],
+    "maxAge": 86400
+  },
+  "esgScores": {},
+  "pageViews": {
+    "shortTermTrend": "UP",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  }
+}'''
+# endregion
+
+# region MS_FINANCE_DATA
+GOOD_MS_FINANCE_DATA = '''[
+  {
+    "Name": "First Trust Dow Jones Internet ETF",
+    "Currency": "USD",
+    "Exchange": "ARCX",
+    "Type": "FE",
+    "TypeName": "ETF",
+    "ExchangeShortName": "FDN",
+    "ExchangeTimeZoneOffsetFromUTCInSeconds": -18000,
+    "CompanyId": "0C00001ZPA",
+    "PerformanceId": "0P0000603I",
+    "ShareClassId": "FEUSA04AGY",
+    "FundShareClassId": "FEUSA04AGY",
+    "InceptionDate": "2006-06-19",
+    "RequestKey": "0P0000603I",
+    "Detail": {
+      "StarRating": 5,
+      "EquityStyle": null,
+      "IsStarRatingBasedOnExtendedPerformance": false,
+      "PremiumDiscount": null,
+      "TotalAssetsInMillions": 3549.13444627,
+      "BidAskSpreadPercent": 0.477,
+      "TwelveMonthYield": 0,
+      "ExpenseRatio": 0.51,
+      "Category": "Technology",
+      "FundFamilyId": "0C00001ZPA"
+    },
+    "RegionAndTicker": "USA:FDN",
+    "Instrument": "126.1.FDN"
+  }
+]'''
+BAD_STAR_RATING_MS_FINANCE_DATA = '''[
+  {
+    "Name": "First Trust Dow Jones Internet ETF",
+    "Currency": "USD",
+    "Exchange": "ARCX",
+    "Type": "FE",
+    "TypeName": "ETF",
+    "ExchangeShortName": "FDN",
+    "ExchangeTimeZoneOffsetFromUTCInSeconds": -18000,
+    "CompanyId": "0C00001ZPA",
+    "PerformanceId": "0P0000603I",
+    "ShareClassId": "FEUSA04AGY",
+    "FundShareClassId": "FEUSA04AGY",
+    "InceptionDate": "2006-06-19",
+    "RequestKey": "0P0000603I",
+    "Detail": {
+      "StarRating": 1,
+      "EquityStyle": null,
+      "IsStarRatingBasedOnExtendedPerformance": false,
+      "PremiumDiscount": null,
+      "TotalAssetsInMillions": 3549.13444627,
+      "BidAskSpreadPercent": 0.477,
+      "TwelveMonthYield": 0,
+      "ExpenseRatio": 0.51,
+      "Category": "Technology",
+      "FundFamilyId": "0C00001ZPA"
+    },
+    "RegionAndTicker": "USA:FDN",
+    "Instrument": "126.1.FDN"
+  }
+]'''
+# endregion
+
 SCREEN_RESULTS = '''
 {
   "finance": {
@@ -5,7 +4478,7 @@ SCREEN_RESULTS = '''
       {
         "start": 0,
         "count": 50,
-        "total": 29646,
+        "total": 50,
         "quotes": [
           {
             "symbol": "VSTSX",
@@ -111,7 +4584,7 @@ SCREEN_RESULTS = '''
               "raw": 5.0797596,
               "fmt": "5.08"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "sharesOutstanding": {
               "raw": 8468250112,
@@ -260,7 +4733,7 @@ SCREEN_RESULTS = '''
               "raw": 4.84095,
               "fmt": "4.84"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "sharesOutstanding": {
               "raw": 8468250112,
@@ -409,7 +4882,7 @@ SCREEN_RESULTS = '''
               "raw": 2.5799944,
               "fmt": "2.58"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "sharesOutstanding": {
               "raw": 8468250112,
@@ -558,7 +5031,7 @@ SCREEN_RESULTS = '''
               "raw": 2.581402,
               "fmt": "2.58"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "sharesOutstanding": {
               "raw": 8468250112,
@@ -702,7 +5175,7 @@ SCREEN_RESULTS = '''
               "raw": 4.5697,
               "fmt": "4.57"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "fiftyTwoWeekHigh": {
               "raw": 234.55,
@@ -841,7 +5314,7 @@ SCREEN_RESULTS = '''
               "raw": 8.623539,
               "fmt": "8.62"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "fiftyTwoWeekHigh": {
               "raw": 442.63,
@@ -980,7 +5453,7 @@ SCREEN_RESULTS = '''
               "raw": 8.623331,
               "fmt": "8.62"
             },
-            "tradeable": false,
+            "tradeable": true,
             "currency": "USD",
             "fiftyTwoWeekHigh": {
               "raw": 442.67,
@@ -6236,6 +10709,155 @@ SCREEN_RESULTS = '''
             },
             "triggerable": false,
             "longName": "American Funds American Balanced Fund Class R-2E"
+          },
+          {
+            "symbol": "FDN",
+            "twoHundredDayAverageChangePercent": {
+              "raw": -0.011456137,
+              "fmt": "-1.15%"
+            },
+            "fiftyTwoWeekLowChangePercent": {
+              "raw": 0.14704944,
+              "fmt": "14.70%"
+            },
+            "language": "en-US",
+            "twoHundredDayAverageChange": {
+              "raw": -2.5094604,
+              "fmt": "-2.51"
+            },
+            "twoHundredDayAverage": {
+              "raw": 219.04945,
+              "fmt": "219.05"
+            },
+            "bookValue": {
+              "raw": 139.506,
+              "fmt": "139.51"
+            },
+            "fiftyTwoWeekHighChange": {
+              "raw": -16.190002,
+              "fmt": "-16.19"
+            },
+            "marketCap": {
+              "raw": 1833714843648,
+              "fmt": "1.834T",
+              "longFmt": "1,833,714,843,648"
+            },
+            "fiftyTwoWeekRange": {
+              "raw": "188.78 - 232.73",
+              "fmt": "188.78 - 232.73"
+            },
+            "fiftyDayAverageChange": {
+              "raw": -6.3792114,
+              "fmt": "-6.38"
+            },
+            "firstTradeDateMilliseconds": 1459258200000,
+            "averageDailyVolume3Month": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "exchangeDataDelayedBy": 0,
+            "trailingAnnualDividendRate": {
+              "raw": 2.802,
+              "fmt": "2.80"
+            },
+            "fiftyTwoWeekLow": {
+              "raw": 188.78,
+              "fmt": "188.78"
+            },
+            "market": "us_market",
+            "quoteSourceName": "Delayed Quote",
+            "messageBoardId": "finmb_6184536",
+            "priceHint": 2,
+            "sourceInterval": 15,
+            "exchange": "NAS",
+            "ytdReturn": {
+              "raw": -6.4056,
+              "fmt": "-6.41%"
+            },
+            "region": "US",
+            "shortName": "Vanguard Total Stock Market Ind",
+            "fiftyDayAverageChangePercent": {
+              "raw": -0.028616697,
+              "fmt": "-2.86%"
+            },
+            "fullExchangeName": "Nasdaq",
+            "financialCurrency": "USD",
+            "gmtOffSetMilliseconds": -18000000,
+            "regularMarketTime": {
+              "raw": 1645016758,
+              "fmt": "8:05AM EST"
+            },
+            "regularMarketChangePercent": {
+              "raw": 1.7814336,
+              "fmt": "1.78%"
+            },
+            "trailingAnnualDividendYield": {
+              "raw": 0.013170388,
+              "fmt": "0.01%"
+            },
+            "quoteType": "MUTUALFUND",
+            "averageDailyVolume10Day": {
+              "raw": 0,
+              "fmt": "0",
+              "longFmt": "0"
+            },
+            "fiftyTwoWeekLowChange": {
+              "raw": 27.759995,
+              "fmt": "27.76"
+            },
+            "fiftyTwoWeekHighChangePercent": {
+              "raw": -0.0695656,
+              "fmt": "-6.96%"
+            },
+            "trailingPE": {
+              "raw": 5.0797596,
+              "fmt": "5.08"
+            },
+            "tradeable": false,
+            "currency": "USD",
+            "sharesOutstanding": {
+              "raw": 8468250112,
+              "fmt": "8.468B",
+              "longFmt": "8,468,250,112"
+            },
+            "fiftyTwoWeekHigh": {
+              "raw": 232.73,
+              "fmt": "232.73"
+            },
+            "regularMarketPreviousClose": {
+              "raw": 212.75,
+              "fmt": "212.75"
+            },
+            "trailingThreeMonthReturns": {
+              "raw": -6.13471,
+              "fmt": "-6.13%"
+            },
+            "exchangeTimezoneName": "America/New_York",
+            "regularMarketChange": {
+              "raw": 3.79,
+              "fmt": "3.79"
+            },
+            "fiftyDayAverage": {
+              "raw": 222.9192,
+              "fmt": "222.92"
+            },
+            "exchangeTimezoneShortName": "EST",
+            "regularMarketPrice": {
+              "raw": 216.54,
+              "fmt": "216.54"
+            },
+            "marketState": "REGULAR",
+            "epsTrailingTwelveMonths": {
+              "raw": 42.628,
+              "fmt": "42.63"
+            },
+            "priceToBook": {
+              "raw": 1.5521913,
+              "fmt": "1.55"
+            },
+            "triggerable": false,
+            "longName": "Vanguard Total Stock Market Index Fund Institutional Select Shares"
           }
         ],
         "useRecords": false
@@ -6245,3 +10867,1312 @@ SCREEN_RESULTS = '''
   }
 }
 '''
+
+PERFORMANCE_ID_RESULTS = '''[
+  {
+    "Name": "First Trust Dow Jones Internet ETF",
+    "Currency": "USD",
+    "Exchange": "ARCX",
+    "Type": "FE",
+    "TypeName": "ETF",
+    "ExchangeShortName": "ARCX",
+    "ExchangeTimeZoneOffsetFromUTCInSeconds": -18000,
+    "CompanyId": "0C00001ZPA",
+    "PerformanceId": "0P0000603I",
+    "ShareClassId": "FEUSA04AGY",
+    "FundShareClassId": "FEUSA04AGY",
+    "InceptionDate": "2006-06-19",
+    "RequestKey": "0P0000603I",
+    "Detail": {
+      "StarRating": 2,
+      "EquityStyle": null,
+      "IsStarRatingBasedOnExtendedPerformance": false,
+      "PremiumDiscount": null,
+      "TotalAssetsInMillions": 3556.71585116,
+      "BidAskSpreadPercent": 0.567,
+      "TwelveMonthYield": 0,
+      "ExpenseRatio": 0.51,
+      "Category": "Technology",
+      "FundFamilyId": "0C00001ZPA"
+    },
+    "RegionAndTicker": "USA:FDN",
+    "Instrument": "126.1.FDN"
+  }
+]'''
+
+MS_GET_DETAIL = '''[
+  {
+    "Name": "First Trust Dow Jones Internet ETF",
+    "Currency": "USD",
+    "Exchange": "ARCX",
+    "Type": "FE",
+    "TypeName": "ETF",
+    "ExchangeShortName": "ARCX",
+    "ExchangeTimeZoneOffsetFromUTCInSeconds": -18000,
+    "CompanyId": "0C00001ZPA",
+    "PerformanceId": "0P0000603I",
+    "ShareClassId": "FEUSA04AGY",
+    "FundShareClassId": "FEUSA04AGY",
+    "InceptionDate": "2006-06-19",
+    "RequestKey": "0P0000603I",
+    "Detail": {
+      "StarRating": 2,
+      "EquityStyle": null,
+      "IsStarRatingBasedOnExtendedPerformance": false,
+      "PremiumDiscount": null,
+      "TotalAssetsInMillions": 3549.13444627,
+      "BidAskSpreadPercent": 0.477,
+      "TwelveMonthYield": 0,
+      "ExpenseRatio": 0.51,
+      "Category": "Technology",
+      "FundFamilyId": "0C00001ZPA"
+    },
+    "RegionAndTicker": "USA:FDN",
+    "Instrument": "126.1.FDN"
+  }
+]'''
+
+YH_GET_SUMMARY = '''{
+  "defaultKeyStatistics": {
+    "annualHoldingsTurnover": {},
+    "enterpriseToRevenue": {},
+    "beta3Year": {
+      "raw": 1.09,
+      "fmt": "1.09"
+    },
+    "profitMargins": {},
+    "enterpriseToEbitda": {},
+    "52WeekChange": {},
+    "morningStarRiskRating": {},
+    "forwardEps": {},
+    "revenueQuarterlyGrowth": {},
+    "fundInceptionDate": {
+      "raw": 1150675200,
+      "fmt": "2006-06-19"
+    },
+    "annualReportExpenseRatio": {},
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "bookValue": {},
+    "fundFamily": "First Trust",
+    "lastFiscalYearEnd": {},
+    "netIncomeToCommon": {},
+    "trailingEps": {},
+    "lastDividendValue": {},
+    "SandP52WeekChange": {},
+    "priceToBook": {},
+    "nextFiscalYearEnd": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "mostRecentQuarter": {},
+    "enterpriseValue": {},
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "threeYearAverageReturn": {
+      "raw": -0.0418,
+      "fmt": "-4.18%"
+    },
+    "lastSplitDate": {},
+    "lastSplitFactor": null,
+    "legalType": "Exchange Traded Fund",
+    "lastDividendDate": {},
+    "morningStarOverallRating": {},
+    "earningsQuarterlyGrowth": {},
+    "priceToSalesTrailing12Months": {},
+    "pegRatio": {},
+    "ytdReturn": {
+      "raw": -0.45529997,
+      "fmt": "-45.53%"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "lastCapGain": {},
+    "category": "Technology",
+    "fiveYearAverageReturn": {
+      "raw": 0.0231,
+      "fmt": "2.31%"
+    }
+  },
+  "fundProfile": {
+    "initInvestment": {},
+    "family": "First Trust",
+    "categoryName": "Technology",
+    "initAipInvestment": {},
+    "subseqIraInvestment": {},
+    "brokerages": [],
+    "managementInfo": {
+      "managerName": null,
+      "managerBio": null,
+      "startdate": {}
+    },
+    "subseqInvestment": {},
+    "legalType": "Exchange Traded Fund",
+    "styleBoxUrl": "https://s.yimg.com/lq/i/fi/3_0stylelargeeq3.gif",
+    "feesExpensesInvestment": {
+      "annualHoldingsTurnover": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "frontEndSalesLoad": {},
+      "annualReportExpenseRatio": {
+        "raw": 0.0050999997,
+        "fmt": "0.51%"
+      },
+      "netExpRatio": {},
+      "projectionValues": {},
+      "grossExpRatio": {},
+      "deferredSalesLoad": {},
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "twelveBOne": {}
+    },
+    "maxAge": 1,
+    "feesExpensesInvestmentCat": {
+      "annualReportExpenseRatio": {
+        "raw": 0.0053,
+        "fmt": "0.53%"
+      },
+      "frontEndSalesLoad": {},
+      "deferredSalesLoad": {},
+      "twelveBOne": {},
+      "annualHoldingsTurnover": {
+        "raw": 32.42,
+        "fmt": "3,242.00%"
+      },
+      "totalNetAssets": {
+        "raw": 143768.17,
+        "fmt": "143,768.17"
+      },
+      "projectionValuesCat": {}
+    },
+    "initIraInvestment": {},
+    "subseqAipInvestment": {}
+  },
+  "financialsTemplate": {},
+  "topHoldings": {
+    "preferredPosition": {},
+    "bondPosition": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "convertiblePosition": {},
+    "sectorWeightings": [
+      {
+        "realestate": {
+          "raw": 0.0037,
+          "fmt": "0.37%"
+        }
+      },
+      {
+        "consumer_cyclical": {
+          "raw": 0.17819999,
+          "fmt": "17.82%"
+        }
+      },
+      {
+        "basic_materials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "consumer_defensive": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "technology": {
+          "raw": 0.4548,
+          "fmt": "45.48%"
+        }
+      },
+      {
+        "communication_services": {
+          "raw": 0.2861,
+          "fmt": "28.61%"
+        }
+      },
+      {
+        "financial_services": {
+          "raw": 0.0376,
+          "fmt": "3.76%"
+        }
+      },
+      {
+        "utilities": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "industrials": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "energy": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "healthcare": {
+          "raw": 0.039,
+          "fmt": "3.90%"
+        }
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "AMZN",
+        "holdingName": "Amazon.com Inc",
+        "holdingPercent": {
+          "raw": 0.0936,
+          "fmt": "9.36%"
+        }
+      },
+      {
+        "symbol": "FB",
+        "holdingName": "Facebook Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0798,
+          "fmt": "7.98%"
+        }
+      },
+      {
+        "symbol": "GOOGL",
+        "holdingName": "Alphabet Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0557,
+          "fmt": "5.57%"
+        }
+      },
+      {
+        "symbol": "PYPL",
+        "holdingName": "PayPal Holdings Inc",
+        "holdingPercent": {
+          "raw": 0.053200003,
+          "fmt": "5.32%"
+        }
+      },
+      {
+        "symbol": "GOOG",
+        "holdingName": "Alphabet Inc Class C",
+        "holdingPercent": {
+          "raw": 0.053000003,
+          "fmt": "5.30%"
+        }
+      },
+      {
+        "symbol": "CRM",
+        "holdingName": "Salesforce.com Inc",
+        "holdingPercent": {
+          "raw": 0.048600003,
+          "fmt": "4.86%"
+        }
+      },
+      {
+        "symbol": "NFLX",
+        "holdingName": "Netflix Inc",
+        "holdingPercent": {
+          "raw": 0.0482,
+          "fmt": "4.82%"
+        }
+      },
+      {
+        "symbol": "CSCO",
+        "holdingName": "Cisco Systems Inc",
+        "holdingPercent": {
+          "raw": 0.0462,
+          "fmt": "4.62%"
+        }
+      },
+      {
+        "symbol": "SNAP",
+        "holdingName": "Snap Inc Class A",
+        "holdingPercent": {
+          "raw": 0.0309,
+          "fmt": "3.09%"
+        }
+      },
+      {
+        "symbol": "DOCU",
+        "holdingName": "DocuSign Inc",
+        "holdingPercent": {
+          "raw": 0.028099999,
+          "fmt": "2.81%"
+        }
+      }
+    ],
+    "bondHoldings": {
+      "maturity": {},
+      "duration": {},
+      "creditQuality": {},
+      "maturityCat": {},
+      "durationCat": {},
+      "creditQualityCat": {}
+    },
+    "bondRatings": [
+      {
+        "bb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "aaa": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "a": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "other": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "bbb": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "below_b": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      },
+      {
+        "us_government": {
+          "raw": 0,
+          "fmt": "0.00%"
+        }
+      }
+    ],
+    "equityHoldings": {
+      "priceToCashflow": {
+        "raw": 25.58,
+        "fmt": "25.58"
+      },
+      "priceToSales": {
+        "raw": 5.86,
+        "fmt": "5.86"
+      },
+      "priceToBookCat": {},
+      "priceToEarningsCat": {},
+      "medianMarketCapCat": {},
+      "threeYearEarningsGrowthCat": {},
+      "threeYearEarningsGrowth": {},
+      "medianMarketCap": {},
+      "priceToEarnings": {
+        "raw": 25.56,
+        "fmt": "25.56"
+      },
+      "priceToBook": {
+        "raw": 8.38,
+        "fmt": "8.38"
+      },
+      "priceToSalesCat": {},
+      "priceToCashflowCat": {}
+    },
+    "otherPosition": {},
+    "maxAge": 1,
+    "cashPosition": {},
+    "stockPosition": {
+      "raw": 0.9994,
+      "fmt": "99.94%"
+    }
+  },
+  "price": {
+    "quoteSourceName": "Nasdaq Real Time Price",
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "averageDailyVolume3Month": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "exchange": "PCX",
+    "regularMarketTime": 1672779600,
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "shortName": "First Trust DJ Internet Index F",
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "regularMarketChange": {
+      "raw": 0.29999542,
+      "fmt": "0.30"
+    },
+    "currencySymbol": "$",
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "postMarketTime": 1672787292,
+    "preMarketPrice": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "preMarketTime": 1672753625,
+    "exchangeDataDelayedBy": 0,
+    "toCurrency": null,
+    "postMarketChange": {
+      "raw": 0.300003,
+      "fmt": "0.30"
+    },
+    "postMarketPrice": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "exchangeName": "NYSEArca",
+    "preMarketChange": {
+      "raw": 0,
+      "fmt": "0.00"
+    },
+    "circulatingSupply": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketPrice": {
+      "raw": 123.45,
+      "fmt": "123.45"
+    },
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508.00"
+    },
+    "lastMarket": null,
+    "regularMarketSource": "DELAYED",
+    "openInterest": {},
+    "marketState": "POST",
+    "underlyingSymbol": null,
+    "marketCap": {},
+    "quoteType": "ETF",
+    "preMarketChangePercent": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "volumeAllCurrencies": {},
+    "postMarketSource": "FREE_REALTIME",
+    "strikePrice": {},
+    "symbol": "FDN",
+    "postMarketChangePercent": {
+      "raw": 0.00243016,
+      "fmt": "0.24%"
+    },
+    "preMarketSource": "FREE_REALTIME",
+    "maxAge": 1,
+    "fromCurrency": null,
+    "regularMarketChangePercent": {
+      "raw": 0.0024360165,
+      "fmt": "0.24%"
+    }
+  },
+  "fundPerformance": {
+    "trailingReturns": {
+      "threeMonth": {
+        "raw": -0.0355632,
+        "fmt": "-3.56%"
+      },
+      "oneYear": {
+        "raw": -0.45909852,
+        "fmt": "-45.91%"
+      },
+      "ytd": {
+        "raw": -0.4552694,
+        "fmt": "-45.53%"
+      },
+      "lastBearMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "fiveYear": {
+        "raw": 0.0733182,
+        "fmt": "7.33%"
+      },
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "tenYear": {
+        "raw": 0.1240088,
+        "fmt": "12.40%"
+      },
+      "oneMonth": {
+        "raw": -0.016849,
+        "fmt": "-1.68%"
+      },
+      "threeYear": {
+        "raw": -0.041809402,
+        "fmt": "-4.18%"
+      }
+    },
+    "performanceOverview": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": -0.45529997,
+        "fmt": "-45.53%"
+      },
+      "fiveYrAvgReturnPct": {},
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "oneYearTotalReturn": {
+        "raw": -0.4591,
+        "fmt": "-45.91%"
+      },
+      "numYearsDown": {},
+      "asOfDate": {
+        "raw": 1672272000,
+        "fmt": "2022-12-29"
+      },
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {},
+      "threeYearTotalReturn": {
+        "raw": -0.0418,
+        "fmt": "-4.18%"
+      }
+    },
+    "riskOverviewStatistics": {
+      "riskRating": {},
+      "riskStatistics": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": -1.73,
+            "fmt": "-1.73"
+          },
+          "beta": {
+            "raw": 1.11,
+            "fmt": "1.11"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.56,
+            "fmt": "0.56"
+          },
+          "rSquared": {
+            "raw": 66.05,
+            "fmt": "66.05"
+          },
+          "stdDev": {
+            "raw": 23.97,
+            "fmt": "23.97"
+          },
+          "sharpeRatio": {
+            "raw": 0.35,
+            "fmt": "0.35"
+          },
+          "treynorRatio": {
+            "raw": 2.43,
+            "fmt": "2.43"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": -7.01,
+            "fmt": "-7.01"
+          },
+          "beta": {
+            "raw": 1.09,
+            "fmt": "1.09"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.18,
+            "fmt": "0.18"
+          },
+          "rSquared": {
+            "raw": 68.8,
+            "fmt": "68.8"
+          },
+          "stdDev": {
+            "raw": 26.43,
+            "fmt": "26.43"
+          },
+          "sharpeRatio": {
+            "raw": 0.28,
+            "fmt": "0.28"
+          },
+          "treynorRatio": {
+            "raw": -1.87,
+            "fmt": "-1.87"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 4.18,
+            "fmt": "4.18"
+          },
+          "beta": {
+            "raw": 1.12,
+            "fmt": "1.12"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.21,
+            "fmt": "1.21"
+          },
+          "rSquared": {
+            "raw": 62.86,
+            "fmt": "62.86"
+          },
+          "stdDev": {
+            "raw": 20.06,
+            "fmt": "20.06"
+          },
+          "sharpeRatio": {
+            "raw": 0.96,
+            "fmt": "0.96"
+          },
+          "treynorRatio": {
+            "raw": 11.19,
+            "fmt": "11.19"
+          }
+        }
+      ]
+    },
+    "riskOverviewStatisticsCat": {
+      "riskStatisticsCat": [
+        {
+          "year": "5y",
+          "alpha": {
+            "raw": 5.86,
+            "fmt": "5.86"
+          },
+          "beta": {
+            "raw": 1.05,
+            "fmt": "1.05"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.22,
+            "fmt": "1.22"
+          },
+          "rSquared": {
+            "raw": 62.13,
+            "fmt": "62.13"
+          },
+          "stdDev": {
+            "raw": 15.41,
+            "fmt": "15.41"
+          },
+          "sharpeRatio": {
+            "raw": 0.95,
+            "fmt": "0.95"
+          },
+          "treynorRatio": {
+            "raw": 13.74,
+            "fmt": "13.74"
+          }
+        },
+        {
+          "year": "3y",
+          "alpha": {
+            "raw": 9.46,
+            "fmt": "9.46"
+          },
+          "beta": {
+            "raw": 1.1,
+            "fmt": "1.1"
+          },
+          "meanAnnualReturn": {
+            "raw": 1.13,
+            "fmt": "1.13"
+          },
+          "rSquared": {
+            "raw": 63.2,
+            "fmt": "63.2"
+          },
+          "stdDev": {
+            "raw": 15.69,
+            "fmt": "15.69"
+          },
+          "sharpeRatio": {
+            "raw": 0.86,
+            "fmt": "0.86"
+          },
+          "treynorRatio": {
+            "raw": 11.9,
+            "fmt": "11.9"
+          }
+        },
+        {
+          "year": "10y",
+          "alpha": {
+            "raw": 5.19,
+            "fmt": "5.19"
+          },
+          "beta": {
+            "raw": 1.04,
+            "fmt": "1.04"
+          },
+          "meanAnnualReturn": {
+            "raw": 0.88,
+            "fmt": "0.88"
+          },
+          "rSquared": {
+            "raw": 72.67,
+            "fmt": "72.67"
+          },
+          "stdDev": {
+            "raw": 20.82,
+            "fmt": "20.82"
+          },
+          "sharpeRatio": {
+            "raw": 0.48,
+            "fmt": "0.48"
+          },
+          "treynorRatio": {
+            "raw": 7.7,
+            "fmt": "7.7"
+          }
+        }
+      ]
+    },
+    "performanceOverviewCat": {
+      "bestThreeYrTotalReturn": {},
+      "morningStarReturnRating": {},
+      "ytdReturnPct": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "fiveYrAvgReturnPct": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "numYearsUp": {},
+      "worstOneYrTotalReturn": {},
+      "numYearsDown": {},
+      "asOfDate": {},
+      "worstThreeYrTotalReturn": {},
+      "bestOneYrTotalReturn": {}
+    },
+    "trailingReturnsCat": {
+      "threeMonth": {
+        "raw": 0.031,
+        "fmt": "3.10%"
+      },
+      "oneYear": {
+        "raw": 0.107700005,
+        "fmt": "10.77%"
+      },
+      "ytd": {
+        "raw": 0.1118,
+        "fmt": "11.18%"
+      },
+      "lastBearMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "lastBullMkt": {
+        "raw": 0,
+        "fmt": "0.00%"
+      },
+      "fiveYear": {
+        "raw": 0.1436,
+        "fmt": "14.36%"
+      },
+      "tenYear": {
+        "raw": 0.0868,
+        "fmt": "8.68%"
+      },
+      "oneMonth": {
+        "raw": -0.028800001,
+        "fmt": "-2.88%"
+      },
+      "threeYear": {
+        "raw": 0.1317,
+        "fmt": "13.17%"
+      }
+    },
+    "maxAge": 1,
+    "pastQuarterlyReturns": {
+      "returns": []
+    },
+    "trailingReturnsNav": {
+      "ytd": {
+        "raw": -0.4552694,
+        "fmt": "-45.53%"
+      },
+      "oneMonth": {
+        "raw": -0.016849,
+        "fmt": "-1.68%"
+      },
+      "threeMonth": {
+        "raw": -0.0355632,
+        "fmt": "-3.56%"
+      },
+      "oneYear": {
+        "raw": -0.45909852,
+        "fmt": "-45.91%"
+      },
+      "threeYear": {
+        "raw": -0.041809402,
+        "fmt": "-4.18%"
+      },
+      "fiveYear": {
+        "raw": 0.0733182,
+        "fmt": "7.33%"
+      },
+      "tenYear": {
+        "raw": 0.1240088,
+        "fmt": "12.40%"
+      }
+    },
+    "annualTotalReturns": {
+      "returns": [
+        {
+          "year": "2022",
+          "annualValue": {}
+        },
+        {
+          "year": "2021",
+          "annualValue": {
+            "raw": 0.0643247,
+            "fmt": "6.43%"
+          }
+        },
+        {
+          "year": "2020",
+          "annualValue": {
+            "raw": 0.526452,
+            "fmt": "52.65%"
+          }
+        },
+        {
+          "year": "2019",
+          "annualValue": {
+            "raw": 0.1926275,
+            "fmt": "19.26%"
+          }
+        },
+        {
+          "year": "2018",
+          "annualValue": {
+            "raw": 0.062289402,
+            "fmt": "6.23%"
+          }
+        },
+        {
+          "year": "2017",
+          "annualValue": {
+            "raw": 0.3762376,
+            "fmt": "37.62%"
+          }
+        },
+        {
+          "year": "2016",
+          "annualValue": {
+            "raw": 0.069141105,
+            "fmt": "6.91%"
+          }
+        },
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.21765381,
+            "fmt": "21.77%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.0242313,
+            "fmt": "2.42%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.5339656,
+            "fmt": "53.40%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.2084882,
+            "fmt": "20.85%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": -0.057432,
+            "fmt": "-5.74%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.3668457,
+            "fmt": "36.68%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7915774,
+            "fmt": "79.16%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": -0.44022572,
+            "fmt": "-44.02%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.1117595,
+            "fmt": "11.18%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {}
+        }
+      ],
+      "returnsCat": [
+        {
+          "year": "2015",
+          "annualValue": {
+            "raw": 0.0449924,
+            "fmt": "4.50%"
+          }
+        },
+        {
+          "year": "2014",
+          "annualValue": {
+            "raw": 0.1421983,
+            "fmt": "14.22%"
+          }
+        },
+        {
+          "year": "2013",
+          "annualValue": {
+            "raw": 0.3451226,
+            "fmt": "34.51%"
+          }
+        },
+        {
+          "year": "2012",
+          "annualValue": {
+            "raw": 0.1058113,
+            "fmt": "10.58%"
+          }
+        },
+        {
+          "year": "2011",
+          "annualValue": {
+            "raw": -0.0918838,
+            "fmt": "-9.19%"
+          }
+        },
+        {
+          "year": "2010",
+          "annualValue": {
+            "raw": 0.1908792,
+            "fmt": "19.09%"
+          }
+        },
+        {
+          "year": "2009",
+          "annualValue": {
+            "raw": 0.7608517,
+            "fmt": "76.09%"
+          }
+        },
+        {
+          "year": "2008",
+          "annualValue": {
+            "raw": -0.4716011,
+            "fmt": "-47.16%"
+          }
+        },
+        {
+          "year": "2007",
+          "annualValue": {
+            "raw": 0.0818914,
+            "fmt": "8.19%"
+          }
+        },
+        {
+          "year": "2006",
+          "annualValue": {
+            "raw": 0.095521,
+            "fmt": "9.55%"
+          }
+        },
+        {
+          "year": "2005",
+          "annualValue": {
+            "raw": 0.012559201,
+            "fmt": "1.26%"
+          }
+        },
+        {
+          "year": "2004",
+          "annualValue": {
+            "raw": 0.067329705,
+            "fmt": "6.73%"
+          }
+        },
+        {
+          "year": "2003",
+          "annualValue": {
+            "raw": 0.6501539,
+            "fmt": "65.02%"
+          }
+        },
+        {
+          "year": "2002",
+          "annualValue": {
+            "raw": -0.4454102,
+            "fmt": "-44.54%"
+          }
+        },
+        {
+          "year": "2001",
+          "annualValue": {
+            "raw": -0.32203338,
+            "fmt": "-32.20%"
+          }
+        },
+        {
+          "year": "2000",
+          "annualValue": {
+            "raw": -0.4220336,
+            "fmt": "-42.20%"
+          }
+        },
+        {
+          "year": "1999",
+          "annualValue": {
+            "raw": 0.6602748,
+            "fmt": "66.03%"
+          }
+        }
+      ]
+    }
+  },
+  "quoteType": {
+    "exchange": "PCX",
+    "shortName": "First Trust DJ Internet Index F",
+    "longName": "First Trust Dow Jones Internet Index Fund",
+    "exchangeTimezoneName": "America/New_York",
+    "exchangeTimezoneShortName": "EST",
+    "isEsgPopulated": false,
+    "gmtOffSetMilliseconds": "-18000000",
+    "quoteType": "ETF",
+    "symbol": "FDN",
+    "messageBoardId": "finmb_27775943",
+    "market": "us_market"
+  },
+  "summaryDetail": {
+    "previousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "regularMarketOpen": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "twoHundredDayAverage": {
+      "raw": 141.2107,
+      "fmt": "141.21"
+    },
+    "trailingAnnualDividendYield": {},
+    "payoutRatio": {},
+    "volume24Hr": {},
+    "regularMarketDayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "navPrice": {
+      "raw": 123.12,
+      "fmt": "123.12"
+    },
+    "averageDailyVolume10Day": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "totalAssets": {
+      "raw": 4079491840,
+      "fmt": "4.08B",
+      "longFmt": "4,079,491,840"
+    },
+    "regularMarketPreviousClose": {
+      "raw": 123.15,
+      "fmt": "123.15"
+    },
+    "fiftyDayAverage": {
+      "raw": 126.669,
+      "fmt": "126.67"
+    },
+    "trailingAnnualDividendRate": {},
+    "open": {
+      "raw": 125.06,
+      "fmt": "125.06"
+    },
+    "toCurrency": null,
+    "averageVolume10days": {
+      "raw": 460140,
+      "fmt": "460.14k",
+      "longFmt": "460,140"
+    },
+    "expireDate": {},
+    "yield": {
+      "raw": 0,
+      "fmt": "0.00%"
+    },
+    "algorithm": null,
+    "dividendRate": {},
+    "exDividendDate": {},
+    "beta": {},
+    "circulatingSupply": {},
+    "startDate": {},
+    "regularMarketDayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "priceHint": {
+      "raw": 2,
+      "fmt": "2",
+      "longFmt": "2"
+    },
+    "currency": "USD",
+    "regularMarketVolume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "lastMarket": null,
+    "maxSupply": {},
+    "openInterest": {},
+    "marketCap": {},
+    "volumeAllCurrencies": {},
+    "strikePrice": {},
+    "averageVolume": {
+      "raw": 646914,
+      "fmt": "646.91k",
+      "longFmt": "646,914"
+    },
+    "priceToSalesTrailing12Months": {},
+    "dayLow": {
+      "raw": 122.21,
+      "fmt": "122.21"
+    },
+    "ask": {
+      "raw": 123.75,
+      "fmt": "123.75"
+    },
+    "ytdReturn": {},
+    "askSize": {
+      "raw": 1000,
+      "fmt": "1k",
+      "longFmt": "1,000"
+    },
+    "volume": {
+      "raw": 460508,
+      "fmt": "460.51k",
+      "longFmt": "460,508"
+    },
+    "fiftyTwoWeekHigh": {
+      "raw": 226.83,
+      "fmt": "226.83"
+    },
+    "forwardPE": {},
+    "maxAge": 1,
+    "fromCurrency": null,
+    "fiveYearAvgDividendYield": {},
+    "fiftyTwoWeekLow": {
+      "raw": 114.86,
+      "fmt": "114.86"
+    },
+    "bid": {
+      "raw": 123.02,
+      "fmt": "123.02"
+    },
+    "tradeable": false,
+    "dividendYield": {},
+    "bidSize": {
+      "raw": 800,
+      "fmt": "800",
+      "longFmt": "800"
+    },
+    "dayHigh": {
+      "raw": 126.56,
+      "fmt": "126.56"
+    },
+    "coinMarketCapLink": null
+  },
+  "symbol": "FDN",
+  "assetProfile": {
+    "phone": "NA",
+    "longBusinessSummary": "The fund will normally invest at least 90% of its net assets (including investment borrowings) in the common stocks that comprise the index. The index is designed to measure the performance of the largest and most actively traded securities issued by U.S. companies in the Internet industry. The index is a composite of its two sub-indices, the Dow Jones Internet Commerce Index and the Dow Jones Internet Services Index. It is non-diversified.",
+    "companyOfficers": [],
+    "maxAge": 86400
+  },
+  "esgScores": {},
+  "pageViews": {
+    "shortTermTrend": "UP",
+    "midTermTrend": "UP",
+    "longTermTrend": "UP",
+    "maxAge": 1
+  }
+}'''

@@ -1,19 +1,16 @@
-import sqlite3
+import asyncio
+import tracemalloc
+from queries import db_start
+
+db = db_start()
+db.create_tables()  # TODO check if tables exist, create if not.
+
+from fetch import fetch
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def app():
+    asyncio.run(fetch())
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    connection = sqlite3.connect('tickerTracker.db')
-    cursor = connection.cursor()
-    create_db = """
-    CREATE TABLE fund (
-    symbol VARCHAR(10) PRIMARY KEY
-    """
-    connection.close()
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    app()
